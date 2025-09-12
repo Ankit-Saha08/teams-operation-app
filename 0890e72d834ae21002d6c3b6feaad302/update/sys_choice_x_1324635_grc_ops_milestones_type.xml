@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_1324635_grc_ops_milestones" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_1324635_grc_ops_milestones</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-12 10:47:55</sys_created_on>
+            <sys_id>099aa67783bb2e5002d6c3b6feaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+            <sys_update_name>sys_choice_x_1324635_grc_ops_milestones_type</sys_update_name>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-12 10:47:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Certification</label>
+            <language>en</language>
+            <name>x_1324635_grc_ops_milestones</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-12 10:47:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c19aa67783bb2e5002d6c3b6feaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-12 10:47:55</sys_updated_on>
+            <value>certification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Feedback</label>
+            <language>en</language>
+            <name>x_1324635_grc_ops_milestones</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-12 10:47:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d9aa67783bb2e5002d6c3b6feaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-12 10:47:56</sys_updated_on>
+            <value>project_feedback</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accelerator</label>
+            <language>en</language>
+            <name>x_1324635_grc_ops_milestones</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-12 10:47:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>899aa67783bb2e5002d6c3b6feaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-12 10:47:56</sys_updated_on>
+            <value>accelerator</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
