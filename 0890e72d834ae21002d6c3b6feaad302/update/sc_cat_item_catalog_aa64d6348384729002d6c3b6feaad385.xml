@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Project Feedback">abd6c6f88344729002d6c3b6feaad368</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>ssarkar</sys_created_by>
+        <sys_created_on>2025-09-15 11:45:01</sys_created_on>
+        <sys_id>aa64d6348384729002d6c3b6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Project Feedback</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_aa64d6348384729002d6c3b6feaad385</sys_update_name>
+        <sys_updated_by>ssarkar</sys_updated_by>
+        <sys_updated_on>2025-09-15 11:45:01</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
