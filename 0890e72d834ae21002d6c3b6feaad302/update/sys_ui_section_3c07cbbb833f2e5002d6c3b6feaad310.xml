@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3c07cbbb833f2e5002d6c3b6feaad310" sys_domain="global" table="x_1324635_grc_ops_certifications_achieved" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resource</element>
+            <position>0</position>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-18 12:15:17</sys_created_on>
+            <sys_id>1b1875b18380321002d6c3b6feaad31a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1324635_grc_ops_certifications_achieved" sys_domain="global" view="Default view">3c07cbbb833f2e5002d6c3b6feaad310</sys_ui_section>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-18 12:15:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certificate</element>
+            <position>1</position>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-18 12:15:17</sys_created_on>
+            <sys_id>9f1875b18380321002d6c3b6feaad31a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1324635_grc_ops_certifications_achieved" sys_domain="global" view="Default view">3c07cbbb833f2e5002d6c3b6feaad310</sys_ui_section>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-18 12:15:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certificate_name</element>
+            <position>2</position>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-18 12:15:17</sys_created_on>
+            <sys_id>171875b18380321002d6c3b6feaad31b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1324635_grc_ops_certifications_achieved" sys_domain="global" view="Default view">3c07cbbb833f2e5002d6c3b6feaad310</sys_ui_section>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-18 12:15:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certificate_issued_by</element>
+            <position>3</position>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-18 12:15:17</sys_created_on>
+            <sys_id>9b1875b18380321002d6c3b6feaad31b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1324635_grc_ops_certifications_achieved" sys_domain="global" view="Default view">3c07cbbb833f2e5002d6c3b6feaad310</sys_ui_section>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-18 12:15:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-18 12:15:17</sys_created_on>
+            <sys_id>131875b18380321002d6c3b6feaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1324635_grc_ops_certifications_achieved" sys_domain="global" view="Default view">3c07cbbb833f2e5002d6c3b6feaad310</sys_ui_section>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-18 12:15:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>5</position>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-18 12:15:17</sys_created_on>
+            <sys_id>971875b18380321002d6c3b6feaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1324635_grc_ops_certifications_achieved" sys_domain="global" view="Default view">3c07cbbb833f2e5002d6c3b6feaad310</sys_ui_section>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-18 12:15:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fiscal_year</element>
+            <position>6</position>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-18 12:15:17</sys_created_on>
+            <sys_id>1f1875b18380321002d6c3b6feaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1324635_grc_ops_certifications_achieved" sys_domain="global" view="Default view">3c07cbbb833f2e5002d6c3b6feaad310</sys_ui_section>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-18 12:15:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quarter</element>
+            <position>7</position>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-18 12:15:17</sys_created_on>
+            <sys_id>931875b18380321002d6c3b6feaad31d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1324635_grc_ops_certifications_achieved" sys_domain="global" view="Default view">3c07cbbb833f2e5002d6c3b6feaad310</sys_ui_section>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-18 12:15:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1324635_grc_ops_certifications_achieved</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-09-12 12:52:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c07cbbb833f2e5002d6c3b6feaad310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1324635_grc_ops_certifications_achieved</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+            <sys_update_name>sys_ui_section_3c07cbbb833f2e5002d6c3b6feaad310</sys_update_name>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-09-12 12:52:10</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
