@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_extendable>false</is_extendable>
+        <label>Accelerators</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1324635_grc_ops_accelerators</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Milestones" name="x_1324635_grc_ops_milestones">1f31be928342e61002d6c3b6feaad37c</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>asaha</sys_created_by>
+        <sys_created_on>2025-10-28 03:07:24</sys_created_on>
+        <sys_id>23a7352e8330321002d6c3b6feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accelerators</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_db_object_23a7352e8330321002d6c3b6feaad312</sys_update_name>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2025-10-28 03:07:24</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1324635_grc_ops.grc_int_ops_user" name="x_1324635_grc_ops.grc_int_ops_user">51e067ad834ae21002d6c3b6feaad355</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
