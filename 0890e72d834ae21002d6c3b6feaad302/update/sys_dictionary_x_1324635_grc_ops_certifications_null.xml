@@ -58,10 +58,10 @@
         <sys_policy/>
         <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
         <sys_update_name>sys_dictionary_x_1324635_grc_ops_certifications_null</sys_update_name>
-        <sys_updated_by>asaha</sys_updated_by>
-        <sys_updated_on>2025-06-12 19:21:48</sys_updated_on>
+        <sys_updated_by>ssarkar</sys_updated_by>
+        <sys_updated_on>2025-11-05 06:16:35</sys_updated_on>
         <table_reference>false</table_reference>
-        <text_index>false</text_index>
+        <text_index>true</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="POD Work Tracker Table">2952bb818381f21002d6c3b6feaad382</datasource>
+        <field>sys_updated_on</field>
+        <source>x_1324635_grc_ops_pod_work_tracker</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>ssarkar</sys_created_by>
+        <sys_created_on>2025-11-05 06:16:38</sys_created_on>
+        <sys_id>a952bb818381f21002d6c3b6feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1324635_grc_ops_pod_work_tracker.sys_updated_on</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_a952bb818381f21002d6c3b6feaad3b4</sys_update_name>
+        <sys_updated_by>ssarkar</sys_updated_by>
+        <sys_updated_on>2025-11-05 06:16:38</sys_updated_on>
+        <value>sort_by_date</value>
+    </ais_datasource_field_attribute>
+</record_update>
