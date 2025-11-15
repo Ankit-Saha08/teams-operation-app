@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1324635_grc_ops_project_feedback" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>resource</element>
+            <list_id display_value="x_1324635_grc_ops_project_feedback" element="NULL" name="x_1324635_grc_ops_project_feedback" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1d4b96c8399b21002d6c3b6feaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_id>d9d4b96c8399b21002d6c3b6feaad377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>project</element>
+            <list_id display_value="x_1324635_grc_ops_project_feedback" element="NULL" name="x_1324635_grc_ops_project_feedback" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1d4b96c8399b21002d6c3b6feaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_id>59d4b96c8399b21002d6c3b6feaad378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>feedback_description</element>
+            <list_id display_value="x_1324635_grc_ops_project_feedback" element="NULL" name="x_1324635_grc_ops_project_feedback" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1d4b96c8399b21002d6c3b6feaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_id>ddd4b96c8399b21002d6c3b6feaad378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>feedback_by_client</element>
+            <list_id display_value="x_1324635_grc_ops_project_feedback" element="NULL" name="x_1324635_grc_ops_project_feedback" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1d4b96c8399b21002d6c3b6feaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_id>55d4b96c8399b21002d6c3b6feaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>feedback_provider</element>
+            <list_id display_value="x_1324635_grc_ops_project_feedback" element="NULL" name="x_1324635_grc_ops_project_feedback" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1d4b96c8399b21002d6c3b6feaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_id>d9d4b96c8399b21002d6c3b6feaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="x_1324635_grc_ops_project_feedback" element="NULL" name="x_1324635_grc_ops_project_feedback" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1d4b96c8399b21002d6c3b6feaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_id>51d4b96c8399b21002d6c3b6feaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fiscal_year</element>
+            <list_id display_value="x_1324635_grc_ops_project_feedback" element="NULL" name="x_1324635_grc_ops_project_feedback" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1d4b96c8399b21002d6c3b6feaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_id>d5d4b96c8399b21002d6c3b6feaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quarter</element>
+            <list_id display_value="x_1324635_grc_ops_project_feedback" element="NULL" name="x_1324635_grc_ops_project_feedback" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1d4b96c8399b21002d6c3b6feaad376</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_id>5dd4b96c8399b21002d6c3b6feaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1324635_grc_ops_project_feedback</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>asaha</sys_created_by>
+            <sys_created_on>2025-11-15 18:07:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1d4b96c8399b21002d6c3b6feaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1324635_grc_ops_project_feedback</sys_name>
+            <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+            <sys_update_name>sys_ui_list_x_1324635_grc_ops_project_feedback_null</sys_update_name>
+            <sys_updated_by>asaha</sys_updated_by>
+            <sys_updated_on>2025-11-15 18:07:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
