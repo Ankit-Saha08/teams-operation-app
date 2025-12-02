@@ -2,7 +2,7 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">1062ff818381f21002d6c3b6feaad373</canvas>
         <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
-        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Milestones","sourceType":"table","tableOrViewName":"x_1324635_grc_ops_milestones","filterQuery":"","id":"tablex_1324635_grc_ops_milestones1762323408869","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Unassigned Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_1324635_grc_ops_milestones1762323408869","id":"tablex_1324635_grc_ops_milestones17623234088691762323408871","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":false,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Certifications Achieved","sourceType":"table","tableOrViewName":"x_1324635_grc_ops_certifications_achieved","filterQuery":"resourceDYNAMIC90d1921e5f510100a9ad2572f2b477fe","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzEzMjQ2MzVfZ3JjX29wc19jZXJ0aWZpY2F0aW9uc19hY2hpZXZlZDE3NjQ2NzUxMjM1MTk=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Certifications Achieved","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV4XzEzMjQ2MzVfZ3JjX29wc19jZXJ0aWZpY2F0aW9uc19hY2hpZXZlZDE3NjQ2NzUxMjM1MTk=","id":"ZEdGaWJHVjRYekV6TWpRMk16VmZaM0pqWDI5d2MxOWpaWEowYVdacFkyRjBhVzl1YzE5aFkyaHBaWFpsWkRFM05qUTJOelV4TWpNMU1Uaz0xNzY0Njc1MTI1NTc2","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[],"showLoadingIndicator":false,"sharedContext":{"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}}},"componentId":"gvalzmy9","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"configVersion":"23.0.0-ci-SNAPSHOT"}</component_props>
         <h>9</h>
         <name/>
         <stored_component/>
@@ -12,19 +12,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9462ff818381f21002d6c3b6feaad38e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
         <sys_update_name>par_dashboard_widget_9462ff818381f21002d6c3b6feaad38e</sys_update_name>
-        <sys_updated_by>ssarkar</sys_updated_by>
-        <sys_updated_on>2025-11-05 06:16:49</sys_updated_on>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2025-12-02 11:48:43</sys_updated_on>
         <visualization/>
         <w>16</w>
         <widget_props/>
         <x>16</x>
-        <y>3</y>
+        <y>0</y>
     </par_dashboard_widget>
 </record_update>
