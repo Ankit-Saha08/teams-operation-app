@@ -5,7 +5,24 @@
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
-        <description/>
+        <description>curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent" \&#13;
+  -H 'Content-Type: application/json' \&#13;
+  -H 'X-goog-api-key: AIzaSyC3J1U-TrP_UhpAcGaRnh3tTOJJ1HTvVbI' \&#13;
+  -X POST \&#13;
+  -d '{&#13;
+    "contents": [&#13;
+      {&#13;
+        "parts": [&#13;
+          {&#13;
+            "text": "Explain how AI works in a few words"&#13;
+          }&#13;
+        ]&#13;
+      }&#13;
+    ]&#13;
+  }'&#13;
+&#13;
+Rishav - AIzaSyAf3drTKfEcD0A7PXIVyzQ_Wo_DtqxjomQ&#13;
+Sayan - AIzaSyDI-_6h8w-jQ_WBj00fAlLhjjolWLzxLwI</description>
         <name>Gemini Enterprise</name>
         <oauth2_profile display_value="Google Gemini Enterpirse Test default_profile">2a2b719583b0321002d6c3b6feaad358</oauth2_profile>
         <protocol_name/>
@@ -14,14 +31,14 @@
         <sys_created_by>asaha</sys_created_by>
         <sys_created_on>2025-10-24 05:59:51</sys_created_on>
         <sys_id>824b759583b0321002d6c3b6feaad3f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Gemini Enterprise</sys_name>
         <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
         <sys_update_name>sys_rest_message_824b759583b0321002d6c3b6feaad3f9</sys_update_name>
         <sys_updated_by>asaha</sys_updated_by>
-        <sys_updated_on>2025-10-24 05:59:51</sys_updated_on>
+        <sys_updated_on>2025-12-08 05:52:02</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>
