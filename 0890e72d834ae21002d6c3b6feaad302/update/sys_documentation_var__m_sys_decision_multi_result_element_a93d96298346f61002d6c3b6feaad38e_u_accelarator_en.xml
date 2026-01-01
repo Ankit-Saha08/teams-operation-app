@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_accelarator" label="Accelarator" language="en" table="var__m_sys_decision_multi_result_element_a93d96298346f61002d6c3b6feaad38e">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_accelarator</element>
+            <help/>
+            <hint/>
+            <label>Accelarator</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_a93d96298346f61002d6c3b6feaad38e</name>
+            <plural>Accelarator</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rkundu</sys_created_by>
+            <sys_created_on>2025-12-26 06:36:13</sys_created_on>
+            <sys_id>fdefd66d8346f61002d6c3b6feaad371</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Accelarator</sys_name>
+            <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_multi_result_element_a93d96298346f61002d6c3b6feaad38e_u_accelarator_en</sys_update_name>
+            <sys_updated_by>rkundu</sys_updated_by>
+            <sys_updated_on>2025-12-26 06:36:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
