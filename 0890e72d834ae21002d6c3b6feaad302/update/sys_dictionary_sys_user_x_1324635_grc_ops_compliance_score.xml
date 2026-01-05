@@ -32,7 +32,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="">percent_complete</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>sys_user</name>
@@ -58,8 +58,8 @@
         <sys_policy/>
         <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
         <sys_update_name>sys_dictionary_sys_user_x_1324635_grc_ops_compliance_score</sys_update_name>
-        <sys_updated_by>rkundu</sys_updated_by>
-        <sys_updated_on>2026-01-01 18:47:15</sys_updated_on>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2026-01-05 10:14:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
