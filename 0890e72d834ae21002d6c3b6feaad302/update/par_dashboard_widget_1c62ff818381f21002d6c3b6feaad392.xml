@@ -2,7 +2,7 @@
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">1062ff818381f21002d6c3b6feaad373</canvas>
         <component display_value="List">7ff373544303121093711347efb8f23c</component>
-        <component_props>{"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Milestones","sourceType":"table","tableOrViewName":"x_1324635_grc_ops_milestones","filterQuery":"resourceDYNAMIC90d1921e5f510100a9ad2572f2b477fe","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"a655bdef83c9721002d6c3b6feaad3f2","dataCategories":["trend","group","simple"]}],"additionalGroupByConfig":[],"allowAdditionalGroupByPerMetric":false,"componentId":"aja7xtr","contextMenuActions":[],"description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":false,"parFilter":"","parFilterConfig":[],"allowListPagination":true,"columnLimit":0,"limit":10,"maxCharLimit":4000,"columnPreferenceKey":"","bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":false,"showColumnGrouping":false,"showColumnResizing":false,"showColumnFiltering":false,"showColumnSorting":true,"followFilters":true,"showLinks":true,"showViewAll":true,"showInlineEditing":false,"table":"x_1324635_grc_ops_milestones","headerTitle":"My Milestones","columns":""}</component_props>
+        <component_props>{"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Milestones","sourceType":"table","tableOrViewName":"x_1324635_grc_ops_milestones","filterQuery":"resourceDYNAMIC90d1921e5f510100a9ad2572f2b477fe","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"a655bdef83c9721002d6c3b6feaad3f2","dataCategories":["trend","group","simple"]}],"additionalGroupByConfig":[],"allowAdditionalGroupByPerMetric":false,"componentId":"aja7xtr","contextMenuActions":[],"description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":false,"parFilter":"","parFilterConfig":[],"allowListPagination":true,"columnLimit":0,"limit":10,"maxCharLimit":4000,"columnPreferenceKey":"","bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":false,"showColumnGrouping":false,"showColumnResizing":false,"showColumnFiltering":false,"showColumnSorting":true,"followFilters":true,"showLinks":true,"showViewAll":true,"showInlineEditing":false,"table":"x_1324635_grc_ops_milestones","headerTitle":"My Milestones","columns":"type,quarter,fiscal_year"}</component_props>
         <h>18</h>
         <name/>
         <stored_component/>
@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1c62ff818381f21002d6c3b6feaad392</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
@@ -20,11 +20,11 @@
         <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
         <sys_update_name>par_dashboard_widget_1c62ff818381f21002d6c3b6feaad392</sys_update_name>
         <sys_updated_by>asaha</sys_updated_by>
-        <sys_updated_on>2025-12-02 11:48:43</sys_updated_on>
+        <sys_updated_on>2026-01-06 10:14:38</sys_updated_on>
         <visualization/>
         <w>48</w>
         <widget_props/>
         <x>0</x>
-        <y>9</y>
+        <y>12</y>
     </par_dashboard_widget>
 </record_update>
