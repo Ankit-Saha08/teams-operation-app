@@ -3,7 +3,7 @@
         <choices/>
         <description>L1 Configuration	</description>
         <name>chrome_toolbar</name>
-        <page display_value="GRC Operations Workspace">8f42b781f981f210491d9e79daa49575</page>
+        <page display_value="Team Operations Workspace">8f42b781f981f210491d9e79daa49575</page>
         <required_translations>[ {
   "message" : "Analytics Center",
   "code" : "",
@@ -25,89 +25,72 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>0742b7818c81f2104d9e89df43ca2866</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>chrome_toolbar</sys_name>
         <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
         <sys_update_name>sys_ux_page_property_0742b7818c81f2104d9e89df43ca2866</sys_update_name>
-        <sys_updated_by>asaha</sys_updated_by>
-        <sys_updated_on>2025-12-03 11:06:22</sys_updated_on>
+        <sys_updated_by>spanda</sys_updated_by>
+        <sys_updated_on>2026-01-20 10:41:15</sys_updated_on>
         <type>json</type>
         <unique_name>x_1324635_grc_ops.8f42b781f981f210491d9e79daa49575.root.global.chrome_toolbar</unique_name>
-        <value>[&#13;
-   {&#13;
-      "id":"home",&#13;
-      "label": {&#13;
-              "message": "Home",&#13;
-               "translatable": true&#13;
-        },&#13;
-      "icon":"home-outline",&#13;
-      "viewportInfo":{&#13;
-         &#13;
-      },&#13;
-      "routeInfo":{&#13;
-         "route":"home"&#13;
-      },&#13;
-      "group":"top",&#13;
-      "badge":{&#13;
-         &#13;
-      },&#13;
-      "presence":{&#13;
-         &#13;
-      },&#13;
-      "availability":{&#13;
-         &#13;
-      }&#13;
-   },&#13;
-   {&#13;
-      "id":"list",&#13;
-      "label": {&#13;
-              "message": "List",&#13;
-               "translatable": true&#13;
-        },&#13;
-      "icon":"list-outline",&#13;
-      "viewportInfo":{&#13;
-         &#13;
-      },&#13;
-      "routeInfo":{&#13;
-         "route":"list"&#13;
-      },&#13;
-      "group":"top",&#13;
-      "badge":{&#13;
-         &#13;
-      },&#13;
-      "presence":{&#13;
-         &#13;
-      },&#13;
-      "availability":{&#13;
-         &#13;
-      }&#13;
-   },&#13;
- {&#13;
-      "id":"analytics-center",&#13;
-      "label": {&#13;
-              "message": "Analytics Center",&#13;
-               "translatable": true&#13;
-        },&#13;
-      "icon":"analytics-center-outline",&#13;
-      "viewportInfo":{&#13;
-         &#13;
-      },&#13;
-      "routeInfo":{&#13;
-         "route":"analytics-center"&#13;
-      },&#13;
-      "group":"top",&#13;
-      "badge":{&#13;
-         &#13;
-      },&#13;
-      "presence":{&#13;
-         &#13;
-      },&#13;
-      "availability":{&#13;
-          "roles":["admin"]         &#13;
-      }&#13;
-   }&#13;
+        <value>[
+    {
+        "id": "home",
+        "label": {
+            "translatable": true,
+            "message": "Home"
+        },
+        "icon": "home-outline",
+        "routeInfo": {
+            "route": "home"
+        },
+        "group": "top",
+        "order": 0,
+        "badge": {},
+        "presence": {},
+        "availability": {},
+        "viewportInfo": {}
+    },
+    {
+        "id": "list",
+        "label": {
+            "translatable": true,
+            "message": "List"
+        },
+        "icon": "list-outline",
+        "routeInfo": {
+            "route": "list"
+        },
+        "group": "top",
+        "order": 0,
+        "badge": {},
+        "presence": {},
+        "availability": {},
+        "viewportInfo": {}
+    },
+    {
+        "id": "analytics-center",
+        "label": {
+            "translatable": true,
+            "message": "Analytics Center"
+        },
+        "icon": "analytics-center-outline",
+        "routeInfo": {
+            "route": "analytics-center"
+        },
+        "group": "top",
+        "order": 0,
+        "badge": {},
+        "presence": {},
+        "availability": {
+            "roles": [
+                "admin"
+            ]
+        },
+        "viewportInfo": {}
+    }
 ]</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=0742b7818c81f2104d9e89df43ca2866"/>
