@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="">9616d54683ee321002d6c3b6feaad306</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[This section presents a graphical overview of your <b>resource achievements</b>.
+
+]]></content>
+        <guide display_value="How to navigate the Team Operations Workspace">0f2a508a83e6f25002d6c3b6feaad3e0</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/x/1324635/grc-operations-workspace/home/params/__state__/b64~eyI0NzQyYjc4MWQ3ODFmMjEwOGE5ZDFjNDA1YWNkOWU2NSI6eyJsaXN0X2NvbnRyb2xsZXJfMyI6eyJfIjp7InF1ZXJ5IjoidV9jb2FjaERZTkFNSUM5MGQxOTIxZTVmNTEwMTAwYTlhZDI1NzJmMmI0NzdmZV5PUnVfZGV2X2xlYWRlckRZTkFNSUM5MGQxOTIxZTVmNTEwMTAwYTlhZDI1NzJmMmI0NzdmZSJ9fX19"}</options>
+        <order>9</order>
+        <placement>right</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-21 11:02:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1216d54683ee321002d6c3b6feaad30a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_1216d54683ee321002d6c3b6feaad30a</sys_update_name>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-21 11:47:09</sys_updated_on>
+        <target/>
+        <target_ref display_value="">9616d54683ee321002d6c3b6feaad306</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x/1324635/grc-operations-workspace/home</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=1216d54683ee321002d6c3b6feaad30a"/>
+</record_update>
