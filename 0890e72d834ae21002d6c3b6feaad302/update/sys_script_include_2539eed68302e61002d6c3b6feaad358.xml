@@ -33,7 +33,7 @@ GRCOpsUtils.prototype = {
     },
 
     /**
-     * Function to return list of users to be used in Ref Qual pon Contributors Field
+     * Function to return list of users to be used in Ref Qual POD Contributors Field
      * in the Accelerators table.
      * return - query to fetch list of targeted users based on Accelerator Type Selected. If Type = POD Based, returns list of POD members of the selected Employee, Else, returns list of users scoped under Ops App.
      */
@@ -61,26 +61,86 @@ GRCOpsUtils.prototype = {
         return resultQuery;
     },
 
+    /**
+     * Function to return list of users to be used in Ref Qual POD Contributors Field
+     * in the Accelerators table.
+     * return - query to fetch list of targeted users based on Accelerator Type Selected. If Type = POD Based, returns list of POD members of the selected Employee, Else, returns list of users scoped under Ops App.
+     */
     queryBuildForContributorsPortal: function(selectedType) {
-        var current = {};
+        var uniqueList = [];
+        var resultQuery = '';
         var currentUser = gs.getUserID();
         if (selectedType == 'pod') {
-            current = {
-                'accelerator_type': 'pod_based',
-                'resource': currentUser
-            };
-        } else if (selectedType == 'self'){
-			current = {
-                'accelerator_type': 'self_built'
-            };
-		}
-		else {
-			current = {
-                'accelerator_type': ''
-            };
-		}
+            var gr = new GlideRecord("sys_user_grmember");
+            gr.addEncodedQuery('user.sys_id=' + currentUser + '^group.nameSTARTSWITHPOD');
+            gr.query();
+            if (gr.next()) {
+                var gr2 = new GlideRecord("sys_user_grmember");
+                gr2.addEncodedQuery('group.sys_id=' + gr.group.sys_id);
+                gr2.query();
+                while (gr2.next())
+                    uniqueList.push(gr2.user.sys_id.toString());
+            }
+            resultQuery = 'sys_idIN' + uniqueList.join(',');
+        } else if (selectedType == 'self')
+            resultQuery = this.fetchGRCOpsAppUsers();
+        else
+            resultQuery = 'sys_idIN';
 
-        var resultQueryforPortal = this.queryBuildForContributors(current);
+        return resultQuery;
+    },
+
+    /**
+     * Function to fetch list of users who are a part of GRC Ops App
+     * return - query to fetch list of targeted users which will be queried on sys_user table
+     */
+    fetchPODMembers: function(currentGrp) {
+        var currentGrpUser = new GlideRecord('sys_user_grmember');
+        currentGrpUser.addQuery('group', currentGrp.sys_id);
+        currentGrpUser.query();
+        var list = new Set();
+        while (currentGrpUser.next()) {
+            list.add(currentGrpUser.user.sys_id.toString());
+        }
+        var uniqueList = [];
+        list.forEach(function(value) {
+            uniqueList.push(value);
+        });
+        return 'sys_idIN' + uniqueList.join(',');
+    },
+
+
+	/**
+	 * Function to calculate number of days due from current date to a specified reference date
+	 * return - number of days in string
+	 */
+    anniversaryDaysDueCalculation: function(referenceDate) {
+        if (referenceDate) {
+            var today = new GlideDate();
+            var bday = new GlideDate();
+            bday.setValue(referenceDate);
+
+            // Get current year
+            var currentYear = today.getYearUTC();
+
+            // Set birthday to current year
+            var nextBday = new GlideDate();
+            nextBday.setYearUTC(currentYear);
+            nextBday.setMonthUTC(bday.getMonthUTC());
+            nextBday.setDayOfMonthUTC(bday.getDayOfMonthUTC());
+
+            // If birthday has passed this year, look at next year
+            if (nextBday.getNumericValue() < today.getNumericValue()) {
+                nextBday.addYears(1);
+            }
+
+            // Calculate difference
+            var diffMs = nextBday.getNumericValue() - today.getNumericValue();
+            var daysLeft = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+            return daysLeft.toString() + " days";
+        }
+        return "unknown";
     },
 
     type: 'GRCOpsUtils'
@@ -89,13 +149,13 @@ GRCOpsUtils.prototype = {
         <sys_created_by>asaha</sys_created_by>
         <sys_created_on>2025-06-12 19:10:38</sys_created_on>
         <sys_id>2539eed68302e61002d6c3b6feaad358</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>GRCOpsUtils</sys_name>
         <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
         <sys_policy/>
         <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
         <sys_update_name>sys_script_include_2539eed68302e61002d6c3b6feaad358</sys_update_name>
         <sys_updated_by>asaha</sys_updated_by>
-        <sys_updated_on>2025-10-28 05:28:23</sys_updated_on>
+        <sys_updated_on>2026-01-22 11:17:29</sys_updated_on>
     </sys_script_include>
 </record_update>
