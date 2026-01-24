@@ -5,6 +5,7 @@
         <extension_point/>
         <fields/>
         <icon/>
+        <interoperable>false</interoperable>
         <name>Home</name>
         <optional_parameters>sysId,edit</optional_parameters>
         <order>0</order>
@@ -25,5 +26,4 @@
         <sys_updated_by>ssarkar</sys_updated_by>
         <sys_updated_on>2025-11-05 06:16:28</sys_updated_on>
     </sys_ux_app_route>
-    <sys_translated_text action="delete_multiple" query="documentkey=c342b7816d81f2100de36d10f846266d"/>
 </record_update>
