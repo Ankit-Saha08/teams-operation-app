@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1324635_grc_ops.Get Actionable Insight from gemini</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description>This Data Broker script will return AI based actionable insights of following information about the current user:-&#13;
+1. Performance Comments.&#13;
+2. Progression Comments,</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get Actionable Insight from gemini</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "perfComm",&#13;
+  "label": "Performance Comments",&#13;
+  "description": "Input for the user Performance Comments",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true&#13;
+},&#13;
+{&#13;
+  "name": "progComm",&#13;
+  "label": "Progression Comments",&#13;
+  "description": "Input for the user Progression Comments",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true&#13;
+},&#13;
+{&#13;
+  "name": "aiCallCtr",&#13;
+  "label": "Count Index",&#13;
+  "description": "Input for the maintaing count idex of AI calls",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "integer",&#13;
+  "mandatory": true&#13;
+}&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var perfComm = input.perfComm;
+    var progComm = input.progComm;
+	var count = input.aiCallCtr;
+
+	if (perfComm == '' || progComm == '')
+		return "You don't have any Performance/Progression Comments for Dora to suggest action items.";
+
+    var prompt = "You are an HR performance summary assistant. " +
+        "Create list of actionable items based on the snapshot feedback comments recevied as per the inputs below. " +
+        "Keep it professional, concise, and balanced. " +
+        "If the feedback tone is negative or indicates gaps, append 1–2 improvement suggestions within the same paragraph. " +
+        "If the tone is positive or neutral, do NOT add improvement suggestions. Also, you do not need to add any employee's personal info such as name, birth date, etc. " +
+        "Do use bullet points but not at all any headings or paragraphs.\n\n" +
+        "Performance Comments: " + perfComm + "\n" +
+        "Progression Comments: " + progComm;
+
+    var ai_resp = (count > 0) ? new global.GeminiUtils().makeCallsToGemini(prompt) : "Click on Ask Dora to get actionable items from AI.";
+
+	return ai_resp;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>asaha</sys_created_by>
+        <sys_created_on>2026-01-28 13:54:51</sys_created_on>
+        <sys_id>3cc00a5483faf21002d6c3b6feaad329</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get Actionable Insight from gemini</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_3cc00a5483faf21002d6c3b6feaad329</sys_update_name>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2026-02-03 10:42:37</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=3cc00a5483faf21002d6c3b6feaad329"/>
+</record_update>
