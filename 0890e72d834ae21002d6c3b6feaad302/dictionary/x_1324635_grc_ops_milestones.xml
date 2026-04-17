@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1f31be928342e61002d6c3b6feaad37c" label="Milestones" max_length="40" name="x_1324635_grc_ops_milestones" text_index="true" type="collection">
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Employee" max_length="32" name="resource" reference="sys_user" reference_qual="javascript: new x_1324635_grc_ops.GRCOpsUtils().fetchGRCOpsAppUsers();" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Project Feedback" sequence="1" value="project_feedback"/>
+                <element inactive_on_update="false" label="Accelerator" sequence="2" value="accelerator"/>
+                <element inactive_on_update="false" label="Certification" sequence="0" value="certification"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quarter" max_length="40" name="quarter" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Q1" sequence="0" value="q1"/>
+                <element inactive_on_update="false" label="Q2" sequence="1" value="q2"/>
+                <element inactive_on_update="false" label="Q3" sequence="2" value="q3"/>
+                <element inactive_on_update="false" label="Q4" sequence="3" value="q4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Fiscal Year" max_length="40" name="fiscal_year" type="string"/>
+        <index name="index">
+            <element name="resource"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

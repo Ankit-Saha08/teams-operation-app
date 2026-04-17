@@ -4,8 +4,9 @@
         <app_config display_value="GRC Operations Workspace App Config">4342b7817981f21088e1a64725ac7175</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
-        <macroponent display_value="Certificates">c652fb818381f21002d6c3b6feaad395</macroponent>
+        <macroponent display_value="Certificates Record Page">c652fb818381f21002d6c3b6feaad395</macroponent>
         <macroponent_config/>
         <name>Certificates Record Page</name>
         <order>100</order>

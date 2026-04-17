@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c532723383fb2e5002d6c3b6feaad3b7" extends="x_1324635_grc_ops_milestones" label="Certifications Achieved" max_length="40" name="x_1324635_grc_ops_certifications_achieved" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Certificate Issued By" max_length="60" name="certificate_issued_by" type="string"/>
+        <element label="Issued By" max_length="50" name="issued_by" type="string"/>
+        <element label="Certificate" max_length="32" name="certificate" reference="x_1324635_grc_ops_certifications" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Certificate Name" max_length="60" name="certificate_name" type="string"/>
+        <index name="index">
+            <element name="certificate"/>
+        </index>
+    </element>
+</database>

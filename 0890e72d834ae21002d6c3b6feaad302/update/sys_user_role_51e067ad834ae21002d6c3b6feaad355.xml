@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>This Role will be assigned to users who will be responsible to handle onboarding, offboarding, user account creation, account recovery of users in this GRC Ops App</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>3xtcVn29zQSfX+oHcsxjIx64/6b98Yvlt6UWRngI1kg=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1324635_grc_ops.grc_int_ops_user</name>

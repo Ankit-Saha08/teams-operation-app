@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0e11f9f58340321002d6c3b6feaad32b" extends="x_1324635_grc_ops_milestones" label="Project Feedback" max_length="40" name="x_1324635_grc_ops_project_feedback" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" display="true" label="Project" max_length="32" name="project" reference="x_1324635_grc_ops_project_allocation" type="reference"/>
+        <element label="Feedback provider" max_length="100" name="feedback_provider" type="string_full_utf8"/>
+        <element label="Feedback by client" max_length="40" name="feedback_by_client" type="boolean"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

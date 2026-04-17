@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="736d880783ce6a1002d6c3b6feaad3d3" label="POD Work Tracker" max_length="40" name="x_1324635_grc_ops_pod_work_tracker" text_index="true" type="collection">
+        <element choice="1" label="Quarter" mandatory="true" max_length="40" name="quarter" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Q2" sequence="1" value="q2"/>
+                <element inactive_on_update="false" label="Q3" sequence="2" value="q3"/>
+                <element inactive_on_update="false" label="Q1" sequence="0" value="q1"/>
+                <element inactive_on_update="false" label="Q4" sequence="3" value="q4"/>
+            </choice>
+        </element>
+        <element display="true" label="POD Group Name" mandatory="true" max_length="32" name="pod_group_name" reference="sys_user_group" reference_qual="nameLIKEPOD^EQ" reference_qual_condition="nameLIKEPOD^EQ" type="reference"/>
+        <element choice="1" label="Fiscal Year" mandatory="true" max_length="40" name="fiscal_year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2027 - 28" sequence="2" value="2728"/>
+                <element inactive_on_update="false" label="2028 - 29" sequence="3" value="2829"/>
+                <element inactive_on_update="false" label="2025 - 26" sequence="0" value="2526"/>
+                <element inactive_on_update="false" label="2029 - 30" sequence="4" value="2930"/>
+                <element inactive_on_update="false" label="2026 - 27" sequence="1" value="2627"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="pod_group_name"/>
+        </index>
+    </element>
+</database>

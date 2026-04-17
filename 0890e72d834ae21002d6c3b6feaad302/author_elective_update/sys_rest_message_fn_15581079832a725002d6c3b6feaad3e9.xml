@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>curl https://api.openai.com/v1/completions \&#13;
+  -H "Content-Type: application/json" \&#13;
+  -H "Authorization: Bearer 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" \&#13;
+  -d '{&#13;
+    "model": "gpt-3.5-turbo-instruct",&#13;
+    "prompt": "Say this is a test",&#13;
+    "max_tokens": 7,&#13;
+    "temperature": 0&#13;
+  }'&#13;
+</content>
+        <function_name>POST Method</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>ChatGPT Integration [ POST Method ]</qualified_name>
+        <rest_endpoint>https://api.openai.com/v1/completions</rest_endpoint>
+        <rest_message display_value="ChatGPT Integration">7f561475832a725002d6c3b6feaad39b</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>ssarkar</sys_created_by>
+        <sys_created_on>2026-01-20 11:54:05</sys_created_on>
+        <sys_id>15581079832a725002d6c3b6feaad3e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>POST Method</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_rest_message_fn_15581079832a725002d6c3b6feaad3e9</sys_update_name>
+        <sys_updated_by>ssarkar</sys_updated_by>
+        <sys_updated_on>2026-01-20 12:01:40</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</application>
+        <file_path/>
+        <instance_id>47d3c87b1b79b9d0699443f4bd4bcbf1</instance_id>
+        <instance_name>dev188334</instance_name>
+        <name>sys_rest_message_fn_15581079832a725002d6c3b6feaad3e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>curl https://api.openai.com/v1/completions \&#13;
+  -H "Content-Type: application/json" \&#13;
+  -H "Authorization: Bearer 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" \&#13;
+  -d '{&#13;
+    "model": "gpt-3.5-turbo-instruct",&#13;
+    "prompt": "Say this is a test",&#13;
+    "max_tokens": 7,&#13;
+    "temperature": 0&#13;
+  }'&#13;
+</content><function_name>POST Method</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>ChatGPT Integration [ POST Method ]</qualified_name><rest_endpoint>https://api.openai.com/v1/completions</rest_endpoint><rest_message display_value="ChatGPT Integration">7f561475832a725002d6c3b6feaad39b</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>ssarkar</sys_created_by><sys_created_on>2026-01-20 11:54:05</sys_created_on><sys_id>15581079832a725002d6c3b6feaad3e9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>POST Method</sys_name><sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package><sys_policy/><sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope><sys_update_name>sys_rest_message_fn_15581079832a725002d6c3b6feaad3e9</sys_update_name><sys_updated_by>ssarkar</sys_updated_by><sys_updated_on>2026-01-20 12:01:40</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-1802515874</payload_hash>
+        <record_name>POST Method</record_name>
+        <reverted_from/>
+        <source>d4c0b7018381f21002d6c3b6feaad31c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ssarkar</sys_created_by>
+        <sys_created_on>2026-01-20 12:01:40</sys_created_on>
+        <sys_id>a42a183d832a725002d6c3b6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bdb4831df0000001</sys_recorded_at>
+        <sys_updated_by>ssarkar</sys_updated_by>
+        <sys_updated_on>2026-01-20 12:01:40</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>282ad43d342a7250dadc392c2e122ff4</update_guid>
+        <update_guid_history>282ad43d342a7250dadc392c2e122ff4:-1802515874,0af9903d2f2a72507d4f4b3d17597bcb:-1259383717,e96890f5fa2a7250fe1b2b7bceed9361:603884154</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ssarkar</sys_created_by>
+        <sys_created_on>2026-01-20 12:05:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>36d7d16cb2f74f72afc888a5b0983de4</sys_id>
+        <sys_metadata>15581079832a725002d6c3b6feaad3e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST Method</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_scope_delete display_value="">2511bb1b1b8442c7a459a6b8ca36b471</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_15581079832a725002d6c3b6feaad3e9</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_15581079832a725002d6c3b6feaad3e9">a42a183d832a725002d6c3b6feaad37e</sys_update_version>
+        <sys_updated_by>ssarkar</sys_updated_by>
+        <sys_updated_on>2026-01-20 12:05:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

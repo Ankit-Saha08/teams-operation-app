@@ -3,7 +3,7 @@
         <can_read>true</can_read>
         <can_share>false</can_share>
         <can_write>false</can_write>
-        <dashboard display_value="GRC Operations Workspace">1062ff818381f21002d6c3b6feaad32d</dashboard>
+        <dashboard display_value="My Home">1062ff818381f21002d6c3b6feaad32d</dashboard>
         <group/>
         <owner>false</owner>
         <role display_value="x_1324635_grc_ops.grc_mgr" name="x_1324635_grc_ops.grc_mgr">9c4cd0b5838ee21002d6c3b6feaad310</role>

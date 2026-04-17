@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="Certifications Achieved">1252fb818381f21002d6c3b6feaad3ab</macroponent>
+        <macroponent display_value="Certifications Achieved Record Page">1252fb818381f21002d6c3b6feaad3ab</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
         <preset/>
         <required_translations>[]</required_translations>

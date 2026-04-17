@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Managers View">2ef24002836d725002d6c3b6feaad301</dashboard>
-        <experience display_value="GRC Operations Workspace">8f42b781f981f210491d9e79daa49575</experience>
+        <experience display_value="Team Operations Workspace">8f42b781f981f210491d9e79daa49575</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>asaha</sys_created_by>
         <sys_created_on>2025-12-02 11:56:11</sys_created_on>

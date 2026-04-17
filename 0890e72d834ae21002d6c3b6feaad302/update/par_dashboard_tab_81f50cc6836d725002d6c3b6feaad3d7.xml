@@ -2,7 +2,7 @@
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color/>
-        <dashboard display_value="My Pending Approvals">09f5c8c6836d725002d6c3b6feaad34e</dashboard>
+        <dashboard display_value="My Approvals">09f5c8c6836d725002d6c3b6feaad34e</dashboard>
         <name>New Tab 29</name>
         <order>0</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>

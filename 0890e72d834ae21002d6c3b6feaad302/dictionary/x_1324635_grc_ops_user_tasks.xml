@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ad6ff08c8332721002d6c3b6feaad3b9" label="User Tasks" max_length="40" name="x_1324635_grc_ops_user_tasks" type="collection">
+        <element label="Task Name" max_length="10000" name="task_name" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Pending" sequence="100" value="1"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

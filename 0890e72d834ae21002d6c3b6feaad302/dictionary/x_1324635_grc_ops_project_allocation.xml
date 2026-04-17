@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="621bda5683cea61002d6c3b6feaad3dc" label="Project Allocation" max_length="40" name="x_1324635_grc_ops_project_allocation" text_index="true" type="collection">
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Assigned To" max_length="4000" name="assigned_to" reference="sys_user" reference_qual="javascript: new x_1324635_grc_ops.GRCOpsUtils().fetchGRCOpsAppUsers();" type="glide_list" use_reference_qualifier="advanced"/>
+        <element attributes="encode_utf8=false" label="Project Manager" max_length="32" name="project_manager" reference="sys_user" reference_qual="roles=x_1324635_grc_ops.grc_mgr^ORroles=x_1324635_grc_ops.grc_sen_mgr^EQ" reference_qual_condition="roles=x_1324635_grc_ops.grc_mgr^ORroles=x_1324635_grc_ops.grc_sen_mgr^EQ" type="reference"/>
+        <element label="Project ID" max_length="10" name="project_id" type="string" unique="true"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="Hypercare" sequence="2" value="hypercare"/>
+                <element inactive_on_update="false" label="Delivered" sequence="3" value="delivered"/>
+            </choice>
+        </element>
+        <element display="true" label="Project Name" max_length="50" name="project_name" type="string"/>
+        <index name="index" unique="true">
+            <element name="project_id"/>
+        </index>
+        <index name="index2">
+            <element name="project_manager"/>
+        </index>
+    </element>
+</database>

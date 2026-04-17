@@ -4,8 +4,9 @@
         <app_config display_value="GRC Operations Workspace App Config">4342b7817981f21088e1a64725ac7175</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
-        <macroponent display_value="Project Allocation">2252fb818381f21002d6c3b6feaad3ef</macroponent>
+        <macroponent display_value="Project Allocation Record Page">2252fb818381f21002d6c3b6feaad3ef</macroponent>
         <macroponent_config/>
         <name>Project Allocation Record Page</name>
         <order>100</order>

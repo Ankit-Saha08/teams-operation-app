@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="GRC Operations Workspace App Config">4342b7817981f21088e1a64725ac7175</app_config>
+        <description/>
+        <disable_auto_reflow>true</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings>[]</event_mappings>
+        <macroponent/>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>AI Corner</name>
+        <order>0</order>
+        <parent_macroponent display_value="Home">cb42b7811481f21068ab0f57f47bad68</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="AI Corner">78a3b403832a3a1002d6c3b6feaad3f1</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-01-24 11:05:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fca37487832a3a1002d6c3b6feaad376</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AI Corner</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_screen_fca37487832a3a1002d6c3b6feaad376</sys_update_name>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-01-24 11:08:34</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=fca37487832a3a1002d6c3b6feaad376"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</application>
+        <file_path/>
+        <instance_id>47d3c87b1b79b9d0699443f4bd4bcbf1</instance_id>
+        <instance_name>dev188334</instance_name>
+        <name>sys_ux_screen_fca37487832a3a1002d6c3b6feaad376</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="GRC Operations Workspace App Config">4342b7817981f21088e1a64725ac7175</app_config><description/><disable_auto_reflow>true</disable_auto_reflow><disable_interoperable>false</disable_interoperable><event_mappings>[]</event_mappings><macroponent/><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>AI Corner</name><order>0</order><parent_macroponent display_value="Home">cb42b7811481f21068ab0f57f47bad68</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="AI Corner">78a3b403832a3a1002d6c3b6feaad3f1</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>rkundu</sys_created_by><sys_created_on>2026-01-24 11:05:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fca37487832a3a1002d6c3b6feaad376</sys_id><sys_mod_count>2</sys_mod_count><sys_name>AI Corner</sys_name><sys_overrides/><sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package><sys_policy/><sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope><sys_update_name>sys_ux_screen_fca37487832a3a1002d6c3b6feaad376</sys_update_name><sys_updated_by>rkundu</sys_updated_by><sys_updated_on>2026-01-24 11:08:34</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=fca37487832a3a1002d6c3b6feaad376"/></record_update>]]></payload>
+        <payload_hash>1843433667</payload_hash>
+        <record_name>AI Corner</record_name>
+        <reverted_from/>
+        <source>d890eb6d834ae21002d6c3b6feaad33c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-01-24 11:43:28</sys_created_on>
+        <sys_id>c55c3c0b836a3a1002d6c3b6feaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19befd0fa0f0000001</sys_recorded_at>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-01-24 11:43:28</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>015c3c0b286a3a107827db6b575bc2d3</update_guid>
+        <update_guid_history>015c3c0b286a3a107827db6b575bc2d3:0,3954300bc42a3a10eddb79df4f70b1ba:-1101437303,aab378875c2a3a1057bd253e2a112301:-1986025565,f8a37487a02a3a10cbcb2c23e0219d7a:-558843293</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-01-24 11:44:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>488df4fb3db3408296519bc81dd82d84</sys_id>
+        <sys_metadata>fca37487832a3a1002d6c3b6feaad376</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Corner</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_scope_delete display_value="">2511bb1b1b8442c7a459a6b8ca36b471</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_fca37487832a3a1002d6c3b6feaad376</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_fca37487832a3a1002d6c3b6feaad376">c55c3c0b836a3a1002d6c3b6feaad3d3</sys_update_version>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-01-24 11:44:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

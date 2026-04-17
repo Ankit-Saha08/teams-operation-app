@@ -3,7 +3,7 @@
         <choices/>
         <description>A default view for GRC Operations Workspace generated</description>
         <name>view</name>
-        <page display_value="GRC Operations Workspace">8f42b781f981f210491d9e79daa49575</page>
+        <page display_value="Team Operations Workspace">8f42b781f981f210491d9e79daa49575</page>
         <required_translations/>
         <route/>
         <suffix/>

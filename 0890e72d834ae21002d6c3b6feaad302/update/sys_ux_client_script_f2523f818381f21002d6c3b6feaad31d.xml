@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="Accelerators">a2523f818381f21002d6c3b6feaad31a</macroponent>
+        <macroponent display_value="Accelerators Record Page">a2523f818381f21002d6c3b6feaad31a</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
         <preset/>
         <required_translations>[]</required_translations>

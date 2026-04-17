@@ -2,7 +2,7 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="Project Feedback">22523f818381f21002d6c3b6feaad311</macroponent>
+        <macroponent display_value="Project Feedback Record Page">22523f818381f21002d6c3b6feaad311</macroponent>
         <name>viewport_gph/initiallyCollapsed</name>
         <preset/>
         <required_translations>[]</required_translations>

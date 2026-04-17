@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home">cb42b7811481f21068ab0f57f47bad68</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+ console.log(api.state.AIselectedEmployee);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-02-04 20:34:43</sys_created_on>
+        <sys_id>9a069fe283fab65002d6c3b6feaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_client_script_9a069fe283fab65002d6c3b6feaad39c</sys_update_name>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-02-04 20:34:43</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</application>
+        <file_path/>
+        <instance_id>47d3c87b1b79b9d0699443f4bd4bcbf1</instance_id>
+        <instance_name>dev188334</instance_name>
+        <name>sys_ux_client_script_9a069fe283fab65002d6c3b6feaad39c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;cb42b7811481f21068ab0f57f47bad68&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+ console.log(api.state.AIselectedEmployee);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rkundu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-04 20:34:43&lt;/sys_created_on&gt;&lt;sys_id&gt;9a069fe283fab65002d6c3b6feaad39c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops"&gt;0890e72d834ae21002d6c3b6feaad302&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC: Operations Application"&gt;0890e72d834ae21002d6c3b6feaad302&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_9a069fe283fab65002d6c3b6feaad39c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rkundu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-04 20:34:43&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-511816248</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>73cd780f836a3a1002d6c3b6feaad3c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-02-04 20:34:43</sys_created_on>
+        <sys_id>e66fd72a833eb65002d6c3b6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c2a5d4da70000001</sys_recorded_at>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-02-04 20:34:43</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>666fd72ac03eb65010d69c4030cab27e</update_guid>
+        <update_guid_history>666fd72ac03eb65010d69c4030cab27e:-511816248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-02-04 20:37:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>225accbcfd0b4f7887a17d05c35cb840</sys_id>
+        <sys_metadata>9a069fe283fab65002d6c3b6feaad39c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_scope_delete display_value="">2511bb1b1b8442c7a459a6b8ca36b471</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_9a069fe283fab65002d6c3b6feaad39c</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_9a069fe283fab65002d6c3b6feaad39c">e66fd72a833eb65002d6c3b6feaad37f</sys_update_version>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-02-04 20:37:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

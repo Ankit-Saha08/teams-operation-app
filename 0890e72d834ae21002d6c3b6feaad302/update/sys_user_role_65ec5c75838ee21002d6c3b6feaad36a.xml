@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>This role will be assigned to the Senior Associates in the GRC Team</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>i0lPlFNGx1ogAoDwOilz9WFs0XPWi2gzDAobsVsHI84=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1324635_grc_ops.grc_sen_assoc</name>

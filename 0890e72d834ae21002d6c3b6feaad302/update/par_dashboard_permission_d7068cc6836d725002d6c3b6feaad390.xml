@@ -3,7 +3,7 @@
         <can_read>true</can_read>
         <can_share>false</can_share>
         <can_write>true</can_write>
-        <dashboard display_value="My Pending Approvals">09f5c8c6836d725002d6c3b6feaad34e</dashboard>
+        <dashboard display_value="My Approvals">09f5c8c6836d725002d6c3b6feaad34e</dashboard>
         <group/>
         <owner>false</owner>
         <role display_value="x_1324635_grc_ops.grc_sen_assoc" name="x_1324635_grc_ops.grc_sen_assoc">65ec5c75838ee21002d6c3b6feaad36a</role>

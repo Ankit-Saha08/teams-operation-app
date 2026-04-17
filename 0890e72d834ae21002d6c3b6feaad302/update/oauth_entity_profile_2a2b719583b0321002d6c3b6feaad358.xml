@@ -5,6 +5,7 @@
         <jwt_provider/>
         <name>Google Gemini Enterpirse Test default_profile</name>
         <oauth_entity display_value="Google Gemini Enterpirse Test">6a9a755583b0321002d6c3b6feaad3f3</oauth_entity>
+        <oauth_resources/>
         <saml2_assertion_producer/>
         <sys_class_name>oauth_entity_profile</sys_class_name>
         <sys_created_by>asaha</sys_created_by>

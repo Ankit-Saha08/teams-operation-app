@@ -4,6 +4,7 @@
         <app_config display_value="GRC Operations Workspace App Config">4342b7817981f21088e1a64725ac7175</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
         <macroponent display_value="Workspace notification">2683731bb7fa5010fddc6c91de11a93c</macroponent>
         <macroponent_config/>

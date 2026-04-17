@@ -2,7 +2,7 @@
     <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability display_value="Audience for app grc-operations-workspace">0452f7818381f21002d6c3b6feaad3e9</applicability>
-        <list display_value="All">94523b818381f21002d6c3b6feaad368</list>
+        <list display_value="View All">94523b818381f21002d6c3b6feaad368</list>
         <order>100</order>
         <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
         <sys_created_by>ssarkar</sys_created_by>

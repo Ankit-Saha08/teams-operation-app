@@ -2,7 +2,7 @@
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color/>
-        <dashboard display_value="GRC Operations Workspace">1062ff818381f21002d6c3b6feaad32d</dashboard>
+        <dashboard display_value="My Home">1062ff818381f21002d6c3b6feaad32d</dashboard>
         <name>Tab</name>
         <order>0</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>

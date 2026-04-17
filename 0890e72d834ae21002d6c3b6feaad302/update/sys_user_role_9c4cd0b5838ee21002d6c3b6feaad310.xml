@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>This role will be assigned to the Managers in the GRC Team</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>8yBHXa2qh4t2VaK4TRvpnKbDnURQL+kOkvcreGcScFw=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1324635_grc_ops.grc_mgr</name>

@@ -4,8 +4,9 @@
         <app_config display_value="GRC Operations Workspace App Config">4342b7817981f21088e1a64725ac7175</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
-        <macroponent display_value="Accelerators">a2523f818381f21002d6c3b6feaad31a</macroponent>
+        <macroponent display_value="Accelerators Record Page">a2523f818381f21002d6c3b6feaad31a</macroponent>
         <macroponent_config/>
         <name>Accelerators Record Page</name>
         <order>100</order>
