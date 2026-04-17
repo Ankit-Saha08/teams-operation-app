@@ -25,3 +25,5 @@ If you find yourself unable to import your repository due to the presence of fil
    2.3 Re-import the application from source control
    Currently listed dependencies:
    * Service Management Basics
+
+* Token to Connect - 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
