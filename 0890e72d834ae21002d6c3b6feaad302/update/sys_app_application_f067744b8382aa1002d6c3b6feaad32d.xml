@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>This Application Menu consists of modules pertaining to automation of Operations of the GRC Team.</description>
+        <device_type>browser</device_type>
+        <hint>GRC Operations Automated</hint>
+        <name/>
+        <order>100</order>
+        <roles>x_1324635_grc_ops.grc_int_ops_user,x_1324635_grc_ops.grc_interns</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>asaha</sys_created_by>
+        <sys_created_on>2025-06-14 18:53:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f067744b8382aa1002d6c3b6feaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC Corner</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_app_application_f067744b8382aa1002d6c3b6feaad32d</sys_update_name>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2025-06-14 18:53:48</sys_updated_on>
+        <title>GRC Corner</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

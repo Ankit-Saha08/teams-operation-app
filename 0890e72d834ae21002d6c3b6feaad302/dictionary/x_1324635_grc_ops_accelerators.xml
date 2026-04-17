@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="23a7352e8330321002d6c3b6feaad312" extends="x_1324635_grc_ops_milestones" label="Accelerators" max_length="40" name="x_1324635_grc_ops_accelerators" text_index="true" type="collection">
+        <element label="Accelerator Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Contributors" max_length="4000" name="contributors" reference="sys_user" reference_qual="javascript: new x_1324635_grc_ops.GRCOpsUtils().queryBuildForContributors(current);" type="glide_list" use_reference_qualifier="advanced"/>
+        <element label="Benefits" mandatory="true" max_length="1000" name="benefits" type="string"/>
+        <element choice="1" label="Accelerator Type" mandatory="true" max_length="40" name="accelerator_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="POD Based" sequence="0" value="pod_based"/>
+                <element inactive_on_update="false" label="Self Built" sequence="1" value="self_built"/>
+            </choice>
+        </element>
+        <element label="Problem Statement" mandatory="true" max_length="500" name="description" type="string"/>
+    </element>
+</database>

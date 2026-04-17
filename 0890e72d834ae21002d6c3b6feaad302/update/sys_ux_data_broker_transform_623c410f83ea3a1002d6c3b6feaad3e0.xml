@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1324635_grc_ops.Gemini Employee Suggestions</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Gemini Employee Suggestions</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+"name":"selectedID",&#13;
+"label":"Selected Employee"&#13;
+},&#13;
+{&#13;
+"name":"selectedReport",&#13;
+"label":"Selected Report"&#13;
+}&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+    var selectedUser = input.selectedID;
+    var loginuser = gs.getUserID();
+    var selectedReport = input.selectedReport;
+
+    function getobject(reportName) {
+        var reportObj = {};
+        reportObj.reportname = reportName;
+        switch (reportName) {
+            case "My Accelerators":
+                reportObj.user = getUser(loginuser);
+                reportObj.accelarators = getAccelarators(loginuser);
+                break;
+            case "Certifications Achieved":
+                reportObj.user = getUser(loginuser);
+                reportObj.certificates = getCertification(loginuser);
+                break;
+            case "Feedbacks Recieved":
+                reportObj.user = getUser(loginuser);
+                reportObj.feedbacks = getFeedback(loginuser);
+                break;
+            case "My Milestones":
+                reportObj.user = getUser(loginuser);
+                reportObj.certificates = getCertification(loginuser);
+                reportObj.accelarators = getAccelarators(loginuser);
+                reportObj.feedbacks = getFeedback(loginuser);
+                break;
+            case "Milestones of your resources":
+                reportObj.user = getUser(selectedUser);
+                reportObj.certificates = getCertification(selectedUser);
+                reportObj.accelarators = getAccelarators(selectedUser);
+                reportObj.feedbacks = getFeedback(selectedUser);
+                break;
+            case "# Employees achieved 5+ Milestones (Compliant Employees)":
+                reportObj.user = getUser(selectedUser);
+                reportObj.certificates = getCertification(selectedUser);
+                reportObj.accelarators = getAccelarators(selectedUser);
+                reportObj.feedbacks = getFeedback(selectedUser);
+                break;
+            case "# Employees achieved < 5 Milestones (Non-Compliant Employees)":
+                reportObj.user = getUser(selectedUser);
+                reportObj.certificates = getCertification(selectedUser);
+                reportObj.accelarators = getAccelarators(selectedUser);
+                reportObj.feedbacks = getFeedback(selectedUser);
+                break;
+            case "Milestones by Quarter":
+                reportObj.user = getUser(selectedUser);
+                reportObj.certificates = getCertification(selectedUser);
+                reportObj.accelarators = getAccelarators(selectedUser);
+                reportObj.feedbacks = getFeedback(selectedUser);
+                break;
+            case "Employee wise Compliance Percent":
+                reportObj.user = getUser(selectedUser);
+                var user = new GlideRecord("sys_user");
+                user.addEncodedQuery("sys_id=" + selectedUser);
+                user.query();
+                if (user.next()) {
+                    reportObj.certificates = getCertification(user.sys_id.toString());
+                    reportObj.accelarators = getAccelarators(user.sys_id.toString());
+                    reportObj.feedbacks = getFeedback(user.sys_id.toString());
+                }
+                break;
+        }
+        return reportObj;
+    }
+
+    function getUser(userID) {
+        var userdata = {};
+        var user = new GlideRecord("sys_user");
+        user.addEncodedQuery("sys_id=" + userID);
+        user.query();
+        if (user.next()) {
+            userdata.name = user.name.getDisplayValue();
+            var role = "";
+            if (isUserInGroup(user.sys_id.toString(), 'GRC Senior Managers')) {
+                role = "GRC Senior Managers";
+            } else if (isUserInGroup(user.sys_id.toString(), 'GRC Managers')) {
+                role = "GRC Managers";
+            } else if (isUserInGroup(user.sys_id.toString(), 'GRC Senior Associates')) {
+                role = "GRC Senior Associates";
+            } else if (isUserInGroup(user.sys_id.toString(), 'GRC Associates')) {
+                role = "GRC Associates";
+            }
+            userdata.role = role;
+            userdata.compliance_score = user.x_1324635_grc_ops_compliance_score.getDisplayValue();
+            // userdata.certificates = getCertification(user.sys_id.toString());
+            // userdata.accelarators = getAccelarators(user.sys_id.toString());
+            // userdata.feedbacks = getFeedback(user.sys_id.toString());
+        }
+        return userdata;
+    }
+
+    function getCertification(userid) {
+        var certificates = {};
+        var cert = new GlideRecord("x_1324635_grc_ops_certifications_achieved");
+        cert.addEncodedQuery("resource=" + userid);
+        cert.query();
+        var certification = [];
+        while (cert.next()) {
+            certification.push({
+                certificate_name: cert.certificate.certification_name.getValue(),
+                quarter: cert.quarter.getDisplayValue(),
+                issued_by: cert.certificate.issue_organization.getDisplayValue()
+            });
+        }
+
+        certificates.certification_count = certification.length;
+        certificates.certificate = certification;
+
+        return certificates;
+    }
+
+    function getAccelarators(userid) {
+        var accelarators = {};
+        var accelarate = new GlideRecord("x_1324635_grc_ops_accelerators");
+        accelarate.addEncodedQuery("resource=" + userid);
+        accelarate.query();
+        var accelarator = [];
+        while (accelarate.next()) {
+            accelarator.push({
+                accelarator_name: accelarate.name.getValue(),
+                accelarator_type: accelarate.accelerator_type.getDisplayValue(),
+                accelarator_problem: accelarate.description.getValue(),
+                accelarator_benifit: accelarate.benefits.getValue()
+            });
+        }
+        accelarators.accelarators_count = accelarator.length;
+        accelarators.accelarator = accelarator;
+
+        return accelarators;
+    }
+
+    function isUserInGroup(userSysId, groupname) {
+        var group = new GlideRecord('sys_user_grmember');
+        group.addEncodedQuery("group.name=" + groupname + "^user=" + userSysId);
+        group.query();
+
+        // If a record is found, the user is a member of the group
+        return group.next();
+    }
+
+    function getFeedback(userid) {
+        var feedbacks = {};
+        var feed = new GlideRecord("x_1324635_grc_ops_project_feedback");
+        feed.addEncodedQuery("resource=" + userid);
+        feed.query();
+        var feeds = [];
+        while (feed.next()) {
+            feeds.push({
+                feedback_name: feed.project.getDisplayValue(),
+                feedback_provider: feed.feedback_provider.getValue()
+            });
+        }
+        feedbacks.feedbacks_count = feeds.length;
+        feedbacks.feedback = feeds;
+
+        return feedbacks;
+
+    }
+    if (selectedUser || selectedReport) {
+        var promptdata = JSON.stringify(getobject(selectedReport));
+
+        var prompt = "## Role  You are a Manager or Senior Manager of a company. Your task is to analyze an employee past performance, identify key achievements and areas for improvement, and collaboratively define clear, actionable future goals.  ## Context  The employee performance review the below JSON input " + promptdata.replaceAll('"', "'") + " A detailed summary of the employee recent work achievements, challenges, and feedback.The employee stated preferences or priorities for future development (e.g., skill-building, career growth, work-life balance). ## Instructions  1. **Analyze the performance summary**: Summarize the employee performance(certifications, accelarators and feedbacks) based on the input JSON format provided above. provide a sentiment analysis like positive, negative and neutral for every summarized points.2. **Align goals with preferences**: Use the employee stated preferences to ensure future goals are relevant and motivating.  3. **Define SMART goals**: Create 3-5 specific, measurable, achievable, relevant, and time-bound goals for the next quarter or year.  4. **Balance improvement and growth**: Ensure goals address both skill development and personal/professional growth.  ## Output  Output should be the below JSON format. [{ 'performance_summary': [{'performance': '<provide the performance_summary 1 based on the provided userdata json format>','sentiment': '< provide the sentiment and it should be positive, negative and neutral >'},{'performance': '<provide the performance_summary 2 based on the provided userdata json format>','sentiment': '< provide the sentiment and it should be positive, negative and neutral>'},{'performance': '<provide the performance_summary 3 based on the provided userdata json format>','sentiment': '< provide the sentiment and it should be positive, negative and neutral>'},{ 'performance': '<provide the performance_summary 4 based on the provided userdata json format>','sentiment': '< provide the sentiment and it should be positive, negative and neutral>'},{'performance': '<provide the performance_summary 1 based on the provided userdata json format>','sentiment': '< provide the sentiment and it should be positive, negative and neutral>'}],'goals_objectives': [{'goal': '<goal 1>'},{'goal': '<goal 2>'},{ 'goal': '<goal 3>' },{'goal': '<goal 4>'},{'goal': '<goal 5>'}]}]";
+
+        var result = new global.GeminiUtils().makeCallsToGemini(prompt);
+        result = result.replace("```json", "");
+        result = result.replace("```", "");
+        return (JSON.parse(result));
+
+        // var test = [{
+        //     "performance_summary": [{
+        //             "performance": "Completed all assigned project tasks with consistent quality and demonstrated strong ownership in day‑to‑day activities.",
+        //             "sentiment": "positive"
+        //         },
+        //         {
+        //             "performance": "Maintained a good understanding of platform fundamentals and applied certified knowledge effectively in project scenarios.",
+        //             "sentiment": "positive"
+        //         },
+        //         {
+        //             "performance": "Contributed to an internal accelerator initiative that helped streamline a repetitive operational process.",
+        //             "sentiment": "negetive"
+        //         },
+        //         {
+        //             "performance": "Received stakeholder feedback highlighting dependable delivery performance but with scope to improve communication clarity.",
+        //             "sentiment": "neutral"
+        //         },
+        //         {
+        //             "performance": "Met baseline compliance expectations but should continue focusing on timely completion of mandatory trainings.",
+        //             "sentiment": "neutral"
+        //         }
+        //     ],
+        //     "goals_objectives": [{
+        //             "goal": "Increase compliance score to 90%+ by completing all quarterly mandatory training modules by the end of Q2."
+        //         },
+        //         {
+        //             "goal": "Enhance technical proficiency by completing one advanced certification relevant to current project work within the next 4 months."
+        //         },
+        //         {
+        //             "goal": "Lead the improvement or development of one internal accelerator that contributes measurable operational efficiency by the next quarter."
+        //         },
+        //         {
+        //             "goal": "Improve communication and presentation skills by participating in at least two cross-team knowledge-sharing sessions this quarter."
+        //         },
+        //         {
+        //             "goal": "Take ownership of a stretch assignment that expands domain or leadership capabilities within the next 6 months."
+        //         }
+        //     ]
+        // }];
+
+        // return test;
+    } else {
+        return [{"flag":0}];
+    }
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-01-24 12:56:30</sys_created_on>
+        <sys_id>623c410f83ea3a1002d6c3b6feaad3e0</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Gemini Employee Suggestions</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_623c410f83ea3a1002d6c3b6feaad3e0</sys_update_name>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-02-19 13:46:12</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=623c410f83ea3a1002d6c3b6feaad3e0"/>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_diagnostic_rule_dismiss">
+    <sys_ux_diagnostic_rule_dismiss action="INSERT_OR_UPDATE">
+        <dismiss_targets>{
+  "77aa8944ff7b12101279ffffffffffd8": [
+    {
+      "card_base_container_1": {
+        "queryId": "",
+        "dismissTimestamp": "2026-01-21T14:46:50.727Z",
+        "dismissedBy": "a3a11fa9830ae21002d6c3b6feaad36b"
+      }
+    }
+  ],
+  "55b74c5270408210f877603d6fa53cf8": [
+    {
+      "button_2": {
+        "queryId": "",
+        "dismissTimestamp": "2026-01-27T19:50:53.455Z",
+        "dismissedBy": "74ba80cb83ab261002d6c3b6feaad3ae"
+      }
+    }
+  ],
+  "b9411a0efff82210763dffffffffff70": [
+    {
+      "dashboard": {
+        "queryId": "",
+        "dismissTimestamp": "2026-02-06T11:55:45.247Z",
+        "dismissedBy": "74ba80cb83ab261002d6c3b6feaad3ae"
+      }
+    },
+    {
+      "dashboard_2": {
+        "queryId": "",
+        "dismissTimestamp": "2026-02-06T11:55:46.284Z",
+        "dismissedBy": "74ba80cb83ab261002d6c3b6feaad3ae"
+      }
+    },
+    {
+      "dashboard_3": {
+        "queryId": "",
+        "dismissTimestamp": "2026-02-06T11:55:46.992Z",
+        "dismissedBy": "74ba80cb83ab261002d6c3b6feaad3ae"
+      }
+    }
+  ]
+}</dismiss_targets>
+        <sys_class_name>sys_ux_diagnostic_rule_dismiss</sys_class_name>
+        <sys_created_by>asaha</sys_created_by>
+        <sys_created_on>2026-01-21 14:48:09</sys_created_on>
+        <sys_id>85d98ec283a6721002d6c3b6feaad3f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_diagnostic_rule_dismiss_85d98ec283a6721002d6c3b6feaad3f7</sys_update_name>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-02-06 11:59:36</sys_updated_on>
+        <table_name>sys_ux_macroponent</table_name>
+        <target_id>cb42b7811481f21068ab0f57f47bad68</target_id>
+    </sys_ux_diagnostic_rule_dismiss>
+</record_update>

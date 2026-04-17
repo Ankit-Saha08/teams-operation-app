@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1324635_grc_ops.Get Ops User Data</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description>This Data Broker script will return a payload of following information about the current user:-&#13;
+1. Designation - based on group assigned&#13;
+2. POD Group - based on POD group allocated&#13;
+3. DL - Name&#13;
+4. Coach - Name&#13;
+5. Project - Name&#13;
+6. Contact Number - 10 digit number&#13;
+7. Email ID - profile email&#13;
+8. Current Time Stamp - system time stamp&#13;
+9. Birth Anniversay - days due for the date&#13;
+10. Work Anniversary - days due for the date&#13;
+11. Email Logs - metadata for inbox</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get Ops User Data</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "userId",&#13;
+  "label": "User",&#13;
+  "description": "Input for the current logged in user id",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true&#13;
+}&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var userId = input.userId;
+    var userInfoPayload = {};
+    var designation = "",
+        pod = "",
+        dl = "",
+        coach = "",
+        project = [],
+        contact = "",
+        email = "",
+        emailLogs = [],
+		birthAnnivDue = "",
+		workAnnivDue = "";
+    var grMemberObj = new GlideRecord("sys_user_grmember");
+    grMemberObj.addEncodedQuery("user=" + userId);
+    grMemberObj.query();
+    while (grMemberObj.next()) {
+        if (grMemberObj.group.name.includes("GRC") && !grMemberObj.group.name.includes("GRC Internal Ops Team")) {
+            designation = (grMemberObj.group == '2248dc31838ee21002d6c3b6feaad322') ? "Senior Manager" : (grMemberObj.group == 'e0b99c71838ee21002d6c3b6feaad36f') ? "Manager" : (grMemberObj.group == '46a81071838ee21002d6c3b6feaad364') ? "Senior Associate" : (grMemberObj.group == '61199cfd834ee21002d6c3b6feaad388') ? "Associate" : (grMemberObj.group == 'f345287183cee21002d6c3b6feaad366') ? "Intern" : "N/A";
+            designation = (grMemberObj.group == 'ece2972d830ae21002d6c3b6feaad3d2') ? "Security Admin" : (grMemberObj.group == 'd41257e9830ae21002d6c3b6feaad3de') ? "Admin" : designation;
+        }
+        if (grMemberObj.group.name.includes("POD")) {
+            pod = (grMemberObj.group == '9fa0200a8382661002d6c3b6feaad382') ? "POD 1" : (grMemberObj.group == '9d51e40a8382661002d6c3b6feaad3b9') ? "POD 2" : (grMemberObj.group == '88716cc68382661002d6c3b6feaad3bd') ? "POD 3" : (grMemberObj.group == '4ff338d58352665002d6c3b6feaad342') ? "POD 4" : (grMemberObj.group == '3f14f09d8352665002d6c3b6feaad3b3') ? "POD 5" : (grMemberObj.group == '1634b4d58352665002d6c3b6feaad354') ? "POD 6" : "N/A";
+        }
+    }
+
+    var grUserObj = new GlideRecord("sys_user");
+    if (grUserObj.get(userId)) {
+        dl = grUserObj.getDisplayValue('u_dev_leader');
+        coach = grUserObj.getDisplayValue('u_coach');
+        contact = grUserObj.getValue('mobile_phone');
+        email = grUserObj.getValue('email');
+        var birthDate = grUserObj.getValue('u_bday');
+        var joinDate = grUserObj.getValue('u_glide_date_5');
+		var scriptCallObj = new x_1324635_grc_ops.GRCOpsUtils();
+		birthAnnivDue = scriptCallObj.anniversaryDaysDueCalculation(birthDate);
+		workAnnivDue = scriptCallObj.anniversaryDaysDueCalculation(joinDate);
+    }
+
+    var grProjectObj = new GlideRecord("x_1324635_grc_ops_project_allocation");
+    grProjectObj.addEncodedQuery("assigned_toLIKE" + userId + "^status!=delivered");
+    grProjectObj.query();
+    while (grProjectObj.next()) {
+        project.push(grProjectObj.getValue('project_name'));
+    }
+
+    var grEmailObj = new GlideRecord("sys_email");
+    grEmailObj.addEncodedQuery("recipientsLIKE" + email);
+    grEmailObj.orderByDesc('sys_created_on');
+    grEmailObj.setLimit(10);
+    grEmailObj.query();
+    while (grEmailObj.next()) {
+        emailLogs.push({
+            "id": grEmailObj.getUniqueValue(),
+            "label": grEmailObj.getValue('subject'),
+            "sublabel": grEmailObj.getValue("sys_created_on")
+        });
+    }
+
+
+    userInfoPayload["designation"] = designation || "N/A";
+    userInfoPayload["pod"] = pod || "Not in POD";
+    userInfoPayload["dl"] = dl || "N/A";
+    userInfoPayload["coach"] = coach || "N/A";
+    userInfoPayload["project"] = project.join(",\n") || "N/A";
+    userInfoPayload["contact"] = contact || "N/A";
+    userInfoPayload["email"] = email || "N/A";
+    userInfoPayload["timestamp"] = new GlideDateTime();
+    userInfoPayload["emailLogs"] = JSON.stringify(emailLogs);
+	userInfoPayload["birthAnnivDue"] = birthAnnivDue;
+	userInfoPayload["workAnnivDue"] = workAnnivDue;
+
+    return JSON.stringify(userInfoPayload);
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>asaha</sys_created_by>
+        <sys_created_on>2026-01-21 19:32:02</sys_created_on>
+        <sys_id>32997ec2832e721002d6c3b6feaad3e3</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Get Ops User Data</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_32997ec2832e721002d6c3b6feaad3e3</sys_update_name>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2026-02-05 06:00:49</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=32997ec2832e721002d6c3b6feaad3e3"/>
+</record_update>

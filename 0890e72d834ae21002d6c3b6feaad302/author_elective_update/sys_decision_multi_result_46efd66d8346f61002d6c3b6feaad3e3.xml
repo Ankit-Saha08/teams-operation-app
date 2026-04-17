@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="Performance Matrix">a93d96298346f61002d6c3b6feaad38e</decision_table>
+        <label>Certificate: 1, POD Activities: 1, Project Feedback: 1</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2025-12-26 06:36:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>46efd66d8346f61002d6c3b6feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificate: 1, POD Activities: 1, Project Feedback: 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_decision_multi_result_46efd66d8346f61002d6c3b6feaad3e3</sys_update_name>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2025-12-26 06:36:15</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=46efd66d8346f61002d6c3b6feaad3e3"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>46efd66d8346f61002d6c3b6feaad3e3</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2025-12-26 06:36:15</sys_created_on>
+        <sys_id>0eefd66d8346f61002d6c3b6feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2025-12-26 06:36:15</sys_updated_on>
+        <value/>
+        <variable display_value="Accelarator">31efd66d8346f61002d6c3b6feaad36d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>46efd66d8346f61002d6c3b6feaad3e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2025-12-26 06:36:15</sys_created_on>
+        <sys_id>42efd66d8346f61002d6c3b6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2025-12-26 06:36:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Certificate">adefd66d8346f61002d6c3b6feaad317</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>46efd66d8346f61002d6c3b6feaad3e3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2025-12-26 06:36:15</sys_created_on>
+        <sys_id>86efd66d8346f61002d6c3b6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2025-12-26 06:36:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Project Feedback">3defd66d8346f61002d6c3b6feaad389</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>46efd66d8346f61002d6c3b6feaad3e3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2025-12-26 06:36:15</sys_created_on>
+        <sys_id>caefd66d8346f61002d6c3b6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2025-12-26 06:36:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="POD Activities">29efd66d8346f61002d6c3b6feaad350</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</application>
+        <file_path/>
+        <instance_id>47d3c87b1b79b9d0699443f4bd4bcbf1</instance_id>
+        <instance_name>dev188334</instance_name>
+        <name>sys_decision_multi_result_46efd66d8346f61002d6c3b6feaad3e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="Performance Matrix">a93d96298346f61002d6c3b6feaad38e</decision_table><label>Certificate: 1, POD Activities: 1, Project Feedback: 1</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>rkundu</sys_created_by><sys_created_on>2025-12-26 06:36:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>46efd66d8346f61002d6c3b6feaad3e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Certificate: 1, POD Activities: 1, Project Feedback: 1</sys_name><sys_overrides/><sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package><sys_policy/><sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope><sys_update_name>sys_decision_multi_result_46efd66d8346f61002d6c3b6feaad3e3</sys_update_name><sys_updated_by>rkundu</sys_updated_by><sys_updated_on>2025-12-26 06:36:15</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=46efd66d8346f61002d6c3b6feaad3e3"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>46efd66d8346f61002d6c3b6feaad3e3</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rkundu</sys_created_by><sys_created_on>2025-12-26 06:36:15</sys_created_on><sys_id>0eefd66d8346f61002d6c3b6feaad3e3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rkundu</sys_updated_by><sys_updated_on>2025-12-26 06:36:15</sys_updated_on><value/><variable display_value="Accelarator">31efd66d8346f61002d6c3b6feaad36d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>46efd66d8346f61002d6c3b6feaad3e3</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rkundu</sys_created_by><sys_created_on>2025-12-26 06:36:15</sys_created_on><sys_id>42efd66d8346f61002d6c3b6feaad3e4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rkundu</sys_updated_by><sys_updated_on>2025-12-26 06:36:15</sys_updated_on><value>1</value><variable display_value="Certificate">adefd66d8346f61002d6c3b6feaad317</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>46efd66d8346f61002d6c3b6feaad3e3</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rkundu</sys_created_by><sys_created_on>2025-12-26 06:36:15</sys_created_on><sys_id>86efd66d8346f61002d6c3b6feaad3e4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rkundu</sys_updated_by><sys_updated_on>2025-12-26 06:36:15</sys_updated_on><value>1</value><variable display_value="Project Feedback">3defd66d8346f61002d6c3b6feaad389</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>46efd66d8346f61002d6c3b6feaad3e3</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rkundu</sys_created_by><sys_created_on>2025-12-26 06:36:15</sys_created_on><sys_id>caefd66d8346f61002d6c3b6feaad3e4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rkundu</sys_updated_by><sys_updated_on>2025-12-26 06:36:15</sys_updated_on><value>1</value><variable display_value="POD Activities">29efd66d8346f61002d6c3b6feaad350</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>591731799</payload_hash>
+        <record_name>Certificate: 1, POD Activities: 1, Project Feedback: 1</record_name>
+        <reverted_from/>
+        <source>cad694b683f9b21002d6c3b6feaad3b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2025-12-26 06:36:15</sys_created_on>
+        <sys_id>d6efd66d8346f61002d6c3b6feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b595f487c0000001</sys_recorded_at>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2025-12-26 06:36:15</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>86efd66d3246f610c693221c994c79e6</update_guid>
+        <update_guid_history>86efd66d3246f610c693221c994c79e6:591731799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-03-26 07:24:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>1bd2d06f3705474483b4bc35b0396d69</sys_id>
+        <sys_metadata>46efd66d8346f61002d6c3b6feaad3e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificate: 1, POD Activities: 1, Project Feedback: 1</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_scope_delete display_value="">2511bb1b1b8442c7a459a6b8ca36b471</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_46efd66d8346f61002d6c3b6feaad3e3</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_46efd66d8346f61002d6c3b6feaad3e3">d6efd66d8346f61002d6c3b6feaad3e7</sys_update_version>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-03-26 07:24:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

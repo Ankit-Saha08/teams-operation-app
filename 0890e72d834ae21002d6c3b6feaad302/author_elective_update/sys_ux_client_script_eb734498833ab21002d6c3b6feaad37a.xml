@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home">cb42b7811481f21068ab0f57f47bad68</macroponent>
+        <name>Order submitted</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+  // Re-open current route with an ever-changing param to force a fresh instance.
+  const route = api.context.route;           // current route name
+  const fields = api.context.fields || {};   // keep same fields (if any)
+  const currentParams = api.context.props || {};
+  
+  helpers.navigate.to(
+    route,
+    fields,
+    {
+      ...currentParams,
+      // cache-buster to force new page instance
+      refresh: Date.now()
+    }
+  );
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-28 05:36:15</sys_created_on>
+        <sys_id>eb734498833ab21002d6c3b6feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order submitted</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_client_script_eb734498833ab21002d6c3b6feaad37a</sys_update_name>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-28 05:36:15</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</application>
+        <file_path/>
+        <instance_id>47d3c87b1b79b9d0699443f4bd4bcbf1</instance_id>
+        <instance_name>dev188334</instance_name>
+        <name>sys_ux_client_script_eb734498833ab21002d6c3b6feaad37a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;cb42b7811481f21068ab0f57f47bad68&lt;/macroponent&gt;&lt;name&gt;Order submitted&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+  // Re-open current route with an ever-changing param to force a fresh instance.
+  const route = api.context.route;           // current route name
+  const fields = api.context.fields || {};   // keep same fields (if any)
+  const currentParams = api.context.props || {};
+  
+  helpers.navigate.to(
+    route,
+    fields,
+    {
+      ...currentParams,
+      // cache-buster to force new page instance
+      refresh: Date.now()
+    }
+  );
+
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kperween&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-28 05:36:15&lt;/sys_created_on&gt;&lt;sys_id&gt;eb734498833ab21002d6c3b6feaad37a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Order submitted&lt;/sys_name&gt;&lt;sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops"&gt;0890e72d834ae21002d6c3b6feaad302&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC: Operations Application"&gt;0890e72d834ae21002d6c3b6feaad302&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_eb734498833ab21002d6c3b6feaad37a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kperween&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-28 05:36:15&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>952779727</payload_hash>
+        <record_name>Order submitted</record_name>
+        <reverted_from/>
+        <source>74d7544683e6f25002d6c3b6feaad35b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-28 05:36:15</sys_created_on>
+        <sys_id>01ae881083bab21002d6c3b6feaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c031a35a60000001</sys_recorded_at>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-28 05:36:15</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>8dae88106bbab21081f499e42413a3cc</update_guid>
+        <update_guid_history>8dae88106bbab21081f499e42413a3cc:952779727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-28 06:13:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>425ce06b56854d2a8985e9ff65e5b0f9</sys_id>
+        <sys_metadata>eb734498833ab21002d6c3b6feaad37a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order submitted</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_scope_delete display_value="">2511bb1b1b8442c7a459a6b8ca36b471</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_eb734498833ab21002d6c3b6feaad37a</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_eb734498833ab21002d6c3b6feaad37a">01ae881083bab21002d6c3b6feaad3ce</sys_update_version>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-28 06:13:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

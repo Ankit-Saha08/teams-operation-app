@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1324635_grc_ops_certifications_achieved</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate Data on certificate insertion</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var createDate = new Date();
+	var year = createDate.getFullYear();
+	var nextyear = year+1;
+	var month= createDate.getMonth()+1;
+	var quarter='';
+	
+	current.fiscal_year = year+"-"+nextyear;
+    if(month==4 || month==5 || month== 6)
+	{
+		quarter="q1";
+	}
+	if(month==7 || month==8 || month== 9)
+	{
+		quarter="q2";
+	}
+	if(month==10 || month==11 || month== 12)
+	{
+		quarter="q3";
+	}
+	if(month==1 || month==2 || month== 3)
+	{
+		quarter="q4";
+		current.fiscal_year = (year-1)+"-"+(year);
+	}
+    current.quarter=quarter;
+	current.update();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2025-09-17 08:47:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c35cbb118384369002d6c3b6feaad384</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Populate Data on certificate insertion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_script_c35cbb118384369002d6c3b6feaad384</sys_update_name>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2026-01-05 06:40:39</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c35cbb118384369002d6c3b6feaad384"/>
+</record_update>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element">
+    <sys_embedded_tour_element action="DELETE">
+        <cell_edit/>
+        <cell_types/>
+        <col/>
+        <cxs_results/>
+        <element_type>GENERIC_CLICKABLE</element_type>
+        <field/>
+        <field_action/>
+        <field_header/>
+        <filters/>
+        <form_buttons>additional_actions</form_buttons>
+        <form_element>field</form_element>
+        <form_section/>
+        <frameset>nav_filter</frameset>
+        <js_path/>
+        <list_element>ui_action</list_element>
+        <list_header/>
+        <manual_css/>
+        <name/>
+        <record_id/>
+        <related_field/>
+        <related_links/>
+        <related_list_element>ui_action</related_list_element>
+        <related_lists/>
+        <related_table/>
+        <row/>
+        <seismic_selector>sn-canvas-experience-shell:not([style='display: none;']) sn-canvas-screen:not([style='display: none;']) macroponent-cb42b7811481f21068ab0f57f47bad68 sn-dashboard[component-id$='dashboard'] h1.now-heading.-header.-hero.-start.has-no-margin</seismic_selector>
+        <sys_class_name>sys_embedded_tour_element</sys_class_name>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-21 11:42:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>805fd10a8322721002d6c3b6feaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_embedded_tour_element_805fd10a8322721002d6c3b6feaad389</sys_update_name>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-21 11:42:24</sys_updated_on>
+        <table/>
+        <type>manual_css</type>
+        <ui_action/>
+    </sys_embedded_tour_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</application>
+        <file_path/>
+        <instance_id>47d3c87b1b79b9d0699443f4bd4bcbf1</instance_id>
+        <instance_name>dev188334</instance_name>
+        <name>sys_embedded_tour_element_805fd10a8322721002d6c3b6feaad389</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element"><sys_embedded_tour_element action="INSERT_OR_UPDATE"><cell_edit/><cell_types/><col/><cxs_results/><element_type>GENERIC_CLICKABLE</element_type><field/><field_action/><field_header/><filters/><form_buttons>additional_actions</form_buttons><form_element>field</form_element><form_section/><frameset>nav_filter</frameset><js_path/><list_element>ui_action</list_element><list_header/><manual_css/><name/><record_id/><related_field/><related_links/><related_list_element>ui_action</related_list_element><related_lists/><related_table/><row/><seismic_selector>sn-canvas-experience-shell:not([style='display: none;']) sn-canvas-screen:not([style='display: none;']) macroponent-cb42b7811481f21068ab0f57f47bad68 sn-dashboard[component-id$='dashboard'] h1.now-heading.-header.-hero.-start.has-no-margin</seismic_selector><sys_class_name>sys_embedded_tour_element</sys_class_name><sys_created_by>kperween</sys_created_by><sys_created_on>2026-01-21 11:42:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>805fd10a8322721002d6c3b6feaad389</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package><sys_policy/><sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope><sys_update_name>sys_embedded_tour_element_805fd10a8322721002d6c3b6feaad389</sys_update_name><sys_updated_by>kperween</sys_updated_by><sys_updated_on>2026-01-21 11:42:24</sys_updated_on><table/><type>manual_css</type><ui_action/></sys_embedded_tour_element></record_update>]]></payload>
+        <payload_hash>1826923975</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>74d7544683e6f25002d6c3b6feaad35b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-21 11:42:24</sys_created_on>
+        <sys_id>805fd10a8322721002d6c3b6feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19be05ce96e0000001</sys_recorded_at>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-21 11:42:24</sys_updated_on>
+        <type>Guided Tour Element</type>
+        <update_guid>405fd10a38227210585a40e4857bff8b</update_guid>
+        <update_guid_history>405fd10a38227210585a40e4857bff8b:1826923975</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-21 11:44:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_element">sys_embedded_tour_element</sys_db_object>
+        <sys_id>3946673e4f5b4f449ed8850cf4968fa4</sys_id>
+        <sys_metadata>805fd10a8322721002d6c3b6feaad389</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_scope_delete display_value="">2511bb1b1b8442c7a459a6b8ca36b471</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_element_805fd10a8322721002d6c3b6feaad389</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_element_805fd10a8322721002d6c3b6feaad389">805fd10a8322721002d6c3b6feaad38c</sys_update_version>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-21 11:44:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

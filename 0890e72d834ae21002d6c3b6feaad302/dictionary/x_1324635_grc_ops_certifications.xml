@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b91daeda8302e61002d6c3b6feaad30d" label="Certificates" max_length="40" name="x_1324635_grc_ops_certifications" text_index="true" type="collection">
+        <element label="Certficate UID" max_length="20" name="certfication_uid" type="string" unique="true"/>
+        <element choice="1" label="Issued By" max_length="40" name="issue_organization" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MetricStream" sequence="2" value="metricstream"/>
+                <element inactive_on_update="false" label="OneTrust" sequence="3" value="onetrust"/>
+                <element inactive_on_update="false" label="Others" sequence="5" value="others"/>
+                <element inactive_on_update="false" label="Workiva" sequence="4" value="workiva"/>
+                <element inactive_on_update="false" label="ServiceNow" sequence="0" value="servicenow"/>
+                <element inactive_on_update="false" label="RSA Archer" sequence="1" value="rsa_archer"/>
+            </choice>
+        </element>
+        <element display="true" label="Certificate Name" max_length="60" name="certification_name" type="string"/>
+        <index name="index" unique="true">
+            <element name="certfication_uid"/>
+        </index>
+    </element>
+</database>

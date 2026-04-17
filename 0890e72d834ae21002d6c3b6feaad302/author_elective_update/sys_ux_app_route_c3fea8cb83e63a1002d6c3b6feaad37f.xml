@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="GRC Operations Workspace App Config">4342b7817981f21088e1a64725ac7175</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>AI Corner</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Home">cb42b7811481f21068ab0f57f47bad68</parent_macroponent>
+        <parent_macroponent_composition_element_id>viewport_1</parent_macroponent_composition_element_id>
+        <route_type>ai-corner</route_type>
+        <screen_type display_value="AI Corner">0bfea0cb83e63a1002d6c3b6feaad336</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-01-24 10:45:10</sys_created_on>
+        <sys_id>c3fea8cb83e63a1002d6c3b6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Corner</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_app_route_c3fea8cb83e63a1002d6c3b6feaad37f</sys_update_name>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-01-24 10:45:10</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=c3fea8cb83e63a1002d6c3b6feaad37f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</application>
+        <file_path/>
+        <instance_id>47d3c87b1b79b9d0699443f4bd4bcbf1</instance_id>
+        <instance_name>dev188334</instance_name>
+        <name>sys_ux_app_route_c3fea8cb83e63a1002d6c3b6feaad37f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="GRC Operations Workspace App Config">4342b7817981f21088e1a64725ac7175</app_config><description/><extension_point/><fields/><icon/><interoperable>false</interoperable><name>AI Corner</name><optional_parameters/><order>0</order><parent_macroponent display_value="Home">cb42b7811481f21068ab0f57f47bad68</parent_macroponent><parent_macroponent_composition_element_id>viewport_1</parent_macroponent_composition_element_id><route_type>ai-corner</route_type><screen_type display_value="AI Corner">0bfea0cb83e63a1002d6c3b6feaad336</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>rkundu</sys_created_by><sys_created_on>2026-01-24 10:45:10</sys_created_on><sys_id>c3fea8cb83e63a1002d6c3b6feaad37f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AI Corner</sys_name><sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package><sys_policy/><sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope><sys_update_name>sys_ux_app_route_c3fea8cb83e63a1002d6c3b6feaad37f</sys_update_name><sys_updated_by>rkundu</sys_updated_by><sys_updated_on>2026-01-24 10:45:10</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=c3fea8cb83e63a1002d6c3b6feaad37f"/></record_update>]]></payload>
+        <payload_hash>-585366082</payload_hash>
+        <record_name>AI Corner</record_name>
+        <reverted_from/>
+        <source>36ead40783663a1002d6c3b6feaad398</source>
+        <source_table>sys_update_set</source_table>
+        <state>backedout</state>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-01-24 10:45:10</sys_created_on>
+        <sys_id>8ffea8cb83e63a1002d6c3b6feaad385</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>19bef9b99840000001</sys_recorded_at>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-01-24 10:52:50</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>0ffea8cb79e63a10d584359d6f85f284</update_guid>
+        <update_guid_history>0ffea8cb79e63a10d584359d6f85f284:-585366082</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-01-24 10:52:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>5e90777747794fcaa887b8e798e30284</sys_id>
+        <sys_metadata>c3fea8cb83e63a1002d6c3b6feaad37f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Corner</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_scope_delete display_value="">2511bb1b1b8442c7a459a6b8ca36b471</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_c3fea8cb83e63a1002d6c3b6feaad37f</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_c3fea8cb83e63a1002d6c3b6feaad37f">8ffea8cb83e63a1002d6c3b6feaad385</sys_update_version>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-01-24 10:52:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

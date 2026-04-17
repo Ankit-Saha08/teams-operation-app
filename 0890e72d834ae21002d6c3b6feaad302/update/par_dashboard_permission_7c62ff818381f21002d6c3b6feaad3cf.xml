@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="My Home">1062ff818381f21002d6c3b6feaad32d</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_1324635_grc_ops.grc_interns" name="x_1324635_grc_ops.grc_interns">fcd4a47183cee21002d6c3b6feaad3d0</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>ssarkar</sys_created_by>
+        <sys_created_on>2025-11-05 06:16:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c62ff818381f21002d6c3b6feaad3cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>1062ff818381f21002d6c3b6feaad32d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>par_dashboard_permission_7c62ff818381f21002d6c3b6feaad3cf</sys_update_name>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2025-12-03 06:13:54</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

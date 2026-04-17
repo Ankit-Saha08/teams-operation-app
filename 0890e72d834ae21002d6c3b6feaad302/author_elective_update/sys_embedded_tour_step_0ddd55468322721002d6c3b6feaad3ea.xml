@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref display_value="">c5dd11068322721002d6c3b6feaad348</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Now, you can switch to the <b>Manager&#39;s View </b>dashboards from here. This view provides a detailed list of the <i>Milestones</i> you have achieved over time.<br /><br />You could select to open a view. 
+]]></content>
+        <guide display_value="How to navigate the Team Operations Workspace">0f2a508a83e6f25002d6c3b6feaad3e0</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/x/1324635/grc-operations-workspace/home"}</options>
+        <order>8</order>
+        <placement>right</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-21 11:35:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ddd55468322721002d6c3b6feaad3ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_0ddd55468322721002d6c3b6feaad3ea</sys_update_name>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-21 11:36:04</sys_updated_on>
+        <target/>
+        <target_ref display_value="">c5dd11068322721002d6c3b6feaad348</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>x/1324635/grc-operations-workspace/home</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="DELETE" query="documentkey=0ddd55468322721002d6c3b6feaad3ea"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</application>
+        <file_path/>
+        <instance_id>47d3c87b1b79b9d0699443f4bd4bcbf1</instance_id>
+        <instance_name>dev188334</instance_name>
+        <name>sys_embedded_tour_step_0ddd55468322721002d6c3b6feaad3ea</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;true&lt;/action&gt;&lt;action_event&gt;click&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref display_value=""&gt;c5dd11068322721002d6c3b6feaad348&lt;/action_target_ref&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Now, you can switch to the &lt;b&gt;Manager&amp;#39;s View &lt;/b&gt;dashboards from here. This view provides a detailed list of the &lt;i&gt;Milestones&lt;/i&gt; you have achieved over time.&lt;br /&gt;&lt;br /&gt;You could select to open a view. 
+]]&gt;&lt;/content&gt;&lt;guide display_value="How to navigate the Team Operations Workspace"&gt;0f2a508a83e6f25002d6c3b6feaad3e0&lt;/guide&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name/&gt;&lt;options&gt;{"url":"/x/1324635/grc-operations-workspace/home"}&lt;/options&gt;&lt;order&gt;8&lt;/order&gt;&lt;placement&gt;right&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kperween&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-21 11:35:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0ddd55468322721002d6c3b6feaad3ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops"&gt;0890e72d834ae21002d6c3b6feaad302&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="GRC: Operations Application"&gt;0890e72d834ae21002d6c3b6feaad302&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_0ddd55468322721002d6c3b6feaad3ea&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kperween&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-21 11:36:04&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref display_value=""&gt;c5dd11068322721002d6c3b6feaad348&lt;/target_ref&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;x/1324635/grc-operations-workspace/home&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0ddd55468322721002d6c3b6feaad3ea"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1614349233</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>74d7544683e6f25002d6c3b6feaad35b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-21 11:36:04</sys_created_on>
+        <sys_id>1bddd5468322721002d6c3b6feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19be0571d680000001</sys_recorded_at>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-21 11:36:04</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>d7ddd5462d2272104b1bc6a656e82629</update_guid>
+        <update_guid_history>d7ddd5462d2272104b1bc6a656e82629:1614349233,01dd554627227210884b75f6938b13ed:-537246809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-21 11:39:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>7b801c6de1da426db10b349908f5cb59</sys_id>
+        <sys_metadata>0ddd55468322721002d6c3b6feaad3ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_scope_delete display_value="">2511bb1b1b8442c7a459a6b8ca36b471</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_0ddd55468322721002d6c3b6feaad3ea</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_0ddd55468322721002d6c3b6feaad3ea">1bddd5468322721002d6c3b6feaad32a</sys_update_version>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-21 11:39:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

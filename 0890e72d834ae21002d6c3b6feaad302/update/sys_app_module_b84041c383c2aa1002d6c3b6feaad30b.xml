@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="GRC Corner">f067744b8382aa1002d6c3b6feaad32d</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_user_role">nameINx_1324635_grc_ops.grc_int_ops_user,x_1324635_grc_ops.grc_sen_mgr,x_1324635_grc_ops.grc_mgr,x_1324635_grc_ops.grc_sen_assoc,x_1324635_grc_ops.grc_assoc,x_1324635_grc_ops.grc_interns^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="IN" or="false" value="x_1324635_grc_ops.grc_int_ops_user,x_1324635_grc_ops.grc_sen_mgr,x_1324635_grc_ops.grc_mgr,x_1324635_grc_ops.grc_sen_assoc,x_1324635_grc_ops.grc_assoc,x_1324635_grc_ops.grc_interns"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Roles related to GRC app</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>User Profiles</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_user_role</name>
+        <order>25</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1324635_grc_ops.grc_int_ops_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>asaha</sys_created_by>
+        <sys_created_on>2025-06-14 19:18:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b84041c383c2aa1002d6c3b6feaad30b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>View GRC Roles</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_app_module_b84041c383c2aa1002d6c3b6feaad30b</sys_update_name>
+        <sys_updated_by>sdas</sys_updated_by>
+        <sys_updated_on>2025-06-19 05:33:18</sys_updated_on>
+        <timeline_page/>
+        <title>View GRC Roles</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>blank</window_name>
+    </sys_app_module>
+</record_update>

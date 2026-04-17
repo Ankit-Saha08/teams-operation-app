@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1324635_grc_ops.getReportList</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>getReportList</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "userID",&#13;
+  "label": "userID"&#13;
+}&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var selecteduser = input.userID;
+	var loginUser = gs.getUserID();
+	gs.info("selected user"+selecteduser);
+    function isUserInGroup(userSysId, groupname) {
+        var group = new GlideRecord('sys_user_grmember');
+        group.addEncodedQuery("group.name=" + groupname + "^user=" + userSysId);
+        group.query();
+
+        // If a record is found, the user is a member of the group
+        return group.next();
+    }
+
+    var reportlist = ["My Accelerators", "Certifications Achieved", "Feedbacks Recieved", "My Milestones", "Milestones of your resources", "# employees achieved 5+ Milestones (Compliant Employees)", "# employees achieved < 5 Milestones (Non-Compliant Employees)", "Milestones by Quarter", "Employee wise Compliance Percent"];
+
+    var reportobj = [{
+        "id": "none",
+        "label": "-- None --"
+    }];
+    var len = 0;
+
+    if (isUserInGroup(loginUser, 'GRC Senior Managers') || isUserInGroup(loginUser, 'GRC Managers')) {
+        if (selecteduser) {
+            len = 9;
+        } else {
+            len = 4;
+        }
+    } else {
+        len = 4;
+    }
+
+    for (var i = 0; i < len; i++) {
+        reportobj.push({
+            "id": reportlist[i].toString(),
+            "label": reportlist[i].toString()
+        });
+    }
+
+
+    return reportobj;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>rkundu</sys_created_by>
+        <sys_created_on>2026-01-31 13:40:30</sys_created_on>
+        <sys_id>7485d95183f6fa1002d6c3b6feaad351</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>getReportList</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_7485d95183f6fa1002d6c3b6feaad351</sys_update_name>
+        <sys_updated_by>rkundu</sys_updated_by>
+        <sys_updated_on>2026-02-06 07:29:00</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=7485d95183f6fa1002d6c3b6feaad351"/>
+</record_update>

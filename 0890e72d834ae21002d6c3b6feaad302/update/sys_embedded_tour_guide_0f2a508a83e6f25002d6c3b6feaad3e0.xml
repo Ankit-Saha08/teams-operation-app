@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>x/1324635/grc-operations-workspace/home</context>
+        <description/>
+        <has_concl>true</has_concl>
+        <has_intro>true</has_intro>
+        <name>How to navigate the Team Operations Workspace</name>
+        <options/>
+        <roles>x_1324635_grc_ops.grc_mgr</roles>
+        <route_parameters>{}</route_parameters>
+        <sn_created>false</sn_created>
+        <sp_page/>
+        <sp_portal/>
+        <status>draft</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>kperween</sys_created_by>
+        <sys_created_on>2026-01-21 06:40:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f2a508a83e6f25002d6c3b6feaad3e0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>How to navigate the Team Operations Workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_0f2a508a83e6f25002d6c3b6feaad3e0</sys_update_name>
+        <sys_updated_by>kperween</sys_updated_by>
+        <sys_updated_on>2026-01-21 11:17:48</sys_updated_on>
+        <tour_id>TOUR0000041</tour_id>
+        <type>now_experience</type>
+    </sys_embedded_tour_guide>
+</record_update>

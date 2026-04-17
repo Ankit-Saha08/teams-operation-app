@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>client_credentials</grant_type>
+        <jwt_provider/>
+        <name>Google Gemini Enterpirse Test default_profile</name>
+        <oauth_entity display_value="Google Gemini Enterpirse Test">6a9a755583b0321002d6c3b6feaad3f3</oauth_entity>
+        <oauth_resources/>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>asaha</sys_created_by>
+        <sys_created_on>2025-10-24 05:58:44</sys_created_on>
+        <sys_id>2a2b719583b0321002d6c3b6feaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google Gemini Enterpirse Test default_profile</sys_name>
+        <sys_package display_value="GRC: Operations Application" source="x_1324635_grc_ops">0890e72d834ae21002d6c3b6feaad302</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Operations Application">0890e72d834ae21002d6c3b6feaad302</sys_scope>
+        <sys_update_name>oauth_entity_profile_2a2b719583b0321002d6c3b6feaad358</sys_update_name>
+        <sys_updated_by>asaha</sys_updated_by>
+        <sys_updated_on>2025-10-24 05:58:44</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>
